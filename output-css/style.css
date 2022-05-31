@@ -1,0 +1,23 @@
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+.navbar-contact {
+  display: flex;
+  background-color: darkgreen;
+  height: 50px;
+  flex-direction: row;
+}
+
+.socal-logo {
+  width: 20px;
+  height: auto;
+  flex-direction: row;
+}
+
+/*# sourceMappingURL=style.css.map */

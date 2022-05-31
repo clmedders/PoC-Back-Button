@@ -1,0 +1,24 @@
+{
+  "name": "odin-recipes.",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "sass --watch sass/style.scss:output-css/style.css",
+    "build": "sass sass/style.scss:output-css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clmedders/odin-recipes..git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clmedders/odin-recipes./issues"
+  },
+  "homepage": "https://github.com/clmedders/odin-recipes.#readme",
+  "dependencies": {
+    "sass": "^1.52.1"
+  }
+}
