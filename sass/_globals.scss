@@ -1,6 +1,20 @@
+$laptop:1366px;
+$tablet:768px;
+
 ul li
 {
     list-style-type: none;
 }
 
-$green: darkgreen;
+$green: #006400;
+
+
+html, body {
+    margin: 0;
+    overflow-x:  hidden;
+    padding: 0;
+  }
+  
+  header, footer, div, section{
+    box-sizing: border-box;
+  }
