@@ -154,10 +154,6 @@ header, footer, div, section {
 @media (min-width: 1366px) {
   .who-we-are {
     flex-direction: row-reverse;
-  }
-}
-@media (min-width: 1366px) {
-  .who-we-are {
     padding-top: 100px;
   }
 }
@@ -226,6 +222,8 @@ header, footer, div, section {
   font-family: sans-serif;
   padding-top: 50px;
   width: 100%;
+  margin: 0 auto;
+  padding-bottom: 20px;
 }
 @media (min-width: 1366px) {
   .what-we-do {
@@ -286,9 +284,8 @@ header, footer, div, section {
 
 .content {
   font-family: fansong;
-  padding-left: 70px;
-  padding-top: 20px;
   width: 100%;
+  margin: auto;
 }
 @media (min-width: 768px) {
   .content {
@@ -311,6 +308,133 @@ header, footer, div, section {
   padding: 10px;
   text-align: center;
   width: 250px;
+}
+
+.products {
+  background-color: #006400;
+  color: white;
+  width: 100%;
+  text-align: center;
+  font-family: sans-serif;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+.beer {
+  width: 375px;
+  margin: auto;
+}
+.beer h1 {
+  font-size: 22px;
+}
+.beer h2 {
+  font-size: 16px;
+}
+.beer p {
+  font-size: 14px;
+}
+
+.coffee {
+  width: 375px;
+  margin: auto;
+}
+.coffee h1 {
+  font-size: 22px;
+}
+.coffee h2 {
+  font-size: 16px;
+}
+.coffee p {
+  font-size: 14px;
+}
+
+.beer-pic {
+  border-radius: 4px;
+  width: 250px;
+}
+
+.coffee-pic {
+  border-radius: 50%;
+  width: 250px;
+}
+
+.leadership {
+  text-align: center;
+  font-family: sans-serif;
+  display: flex;
+  width: 100%;
+  padding-top: 15px;
+}
+
+.leadership-text {
+  text-align: center;
+  width: 325px;
+  margin: auto;
+}
+@media (min-width: 768px) {
+  .leadership-text {
+    width: 425px;
+  }
+}
+.leadership-text p {
+  color: grey;
+  font-size: 12px;
+}
+@media (min-width: 1366px) {
+  .leadership-text p {
+    font-size: 14px;
+  }
+}
+.leadership-text h1 {
+  font-size: 22px;
+}
+@media (min-width: 1366px) {
+  .leadership-text h1 {
+    font-size: 32px;
+  }
+}
+.leadership-text h2 {
+  font-size: 16px;
+  font-weight: lighter;
+}
+@media (min-width: 1366px) {
+  .leadership-text h2 {
+    font-size: 22px;
+  }
+}
+
+.leadership-group {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding-left: 50px;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .leadership-group {
+    padding-left: 80px;
+  }
+}
+@media (min-width: 1366px) {
+  .leadership-group {
+    flex-direction: row;
+  }
+}
+
+.leadership-pic {
+  width: 200px;
+  height: auto;
+  border-radius: 25px;
+  margin: 1em;
+}
+@media (min-width: 768px) {
+  .leadership-pic {
+    width: 250px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

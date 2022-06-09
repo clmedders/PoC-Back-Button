@@ -1,0 +1,67 @@
+.products{
+  // display: flex;
+  background-color: $green;
+  color: white;
+  width: 100%;
+  // margin: auto;
+  text-align: center;
+  font-family: sans-serif;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  // flex-direction: column;
+
+}
+
+h1{
+  font-size: 32px;
+}
+
+.beer{
+  width: 375px;
+  margin: auto;
+  // display: flex;
+  // flex-direction: row;
+
+  @media(min-width:$tablet){
+    // flex-direction: row;
+  }
+
+  h1{
+    font-size: 22px;
+  }
+
+  h2{
+    font-size: 16px;
+  }
+
+  p{
+    font-size: 14px;
+  }
+}
+
+.coffee{
+  width: 375px;
+  margin: auto;
+
+  h1{
+    font-size: 22px;
+  }
+
+  h2{
+    font-size: 16px;
+  }
+
+  p{
+    font-size: 14px;
+  }
+}
+
+.beer-pic{
+  border-radius: 4px;
+  width: 250px
+}
+
+.coffee-pic{
+  border-radius: 50%;
+  width: 250px
+}

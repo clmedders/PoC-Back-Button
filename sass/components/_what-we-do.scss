@@ -4,6 +4,8 @@
   font-family: sans-serif;
   padding-top: 50px;
   width: 100%;
+  margin: 0 auto;
+  padding-bottom: 20px;
 
   @media(min-width:$laptop){
     flex-direction: row;
@@ -61,9 +63,8 @@
 
 .content {
   font-family: fansong;
-  padding-left: 70px;
-  padding-top: 20px;
   width: 100%;
+  margin: auto;
 
   @media(min-width:$tablet){
     display: flex;
