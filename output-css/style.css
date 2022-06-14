@@ -221,20 +221,26 @@ header, footer, div, section {
   flex-direction: column;
   font-family: sans-serif;
   padding-top: 50px;
-  width: 100%;
+  width: 350px;
   margin: 0 auto;
   padding-bottom: 20px;
+}
+@media (min-width: 768px) {
+  .what-we-do {
+    width: 100%;
+    margin: auto;
+  }
 }
 @media (min-width: 1366px) {
   .what-we-do {
     flex-direction: row;
+    width: 1200px;
   }
 }
 
 .what-we-do-text {
   margin: auto;
   text-align: center;
-  width: 350px;
 }
 @media (min-width: 768px) {
   .what-we-do-text {
@@ -284,14 +290,12 @@ header, footer, div, section {
 
 .content {
   font-family: fansong;
-  width: 100%;
   margin: auto;
 }
 @media (min-width: 768px) {
   .content {
     display: flex;
     flex-direction: row;
-    padding-left: 40px;
     width: 725px;
   }
 }
@@ -310,14 +314,17 @@ header, footer, div, section {
   width: 250px;
 }
 
-.products {
+.product {
+  display: flex;
   background-color: #006400;
   color: white;
   width: 100%;
+  margin: auto;
   text-align: center;
   font-family: sans-serif;
   padding-top: 15px;
   padding-bottom: 15px;
+  flex-direction: column;
 }
 
 h1 {
@@ -342,6 +349,16 @@ h1 {
   width: 375px;
   margin: auto;
 }
+@media (min-width: 1366px) {
+  .coffee {
+    padding-top: 70px;
+  }
+}
+@media (min-width: 1366px) {
+  .coffee flex-container {
+    flex-direction: row-reverse;
+  }
+}
 .coffee h1 {
   font-size: 22px;
 }
@@ -355,29 +372,50 @@ h1 {
 .beer-pic {
   border-radius: 4px;
   width: 250px;
+  margin: auto;
 }
 
 .coffee-pic {
   border-radius: 50%;
   width: 250px;
+  margin: auto;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 1366px) {
+  .flex-container {
+    flex-direction: row;
+    width: 800px;
+  }
 }
 
 .leadership {
   text-align: center;
   font-family: sans-serif;
   display: flex;
+  flex-direction: column;
   width: 100%;
   padding-top: 15px;
+  position: relative;
 }
 
 .leadership-text {
   text-align: center;
   width: 325px;
   margin: auto;
+  padding-bottom: 50px;
 }
 @media (min-width: 768px) {
   .leadership-text {
     width: 425px;
+  }
+}
+@media (min-width: 1366px) {
+  .leadership-text {
+    width: 600px;
   }
 }
 .leadership-text p {
@@ -407,18 +445,6 @@ h1 {
   }
 }
 
-.leadership-group {
-  display: flex;
-  flex-direction: column;
-  margin: auto;
-  padding-left: 50px;
-  width: 100%;
-}
-@media (min-width: 768px) {
-  .leadership-group {
-    padding-left: 80px;
-  }
-}
 @media (min-width: 1366px) {
   .leadership-group {
     flex-direction: row;
@@ -435,6 +461,16 @@ h1 {
   .leadership-pic {
     width: 250px;
   }
+}
+
+.title {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */

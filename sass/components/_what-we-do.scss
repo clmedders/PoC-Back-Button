@@ -3,19 +3,25 @@
   flex-direction: column;
   font-family: sans-serif;
   padding-top: 50px;
-  width: 100%;
+  width: 350px;
   margin: 0 auto;
   padding-bottom: 20px;
 
+  @media(min-width:$tablet){
+    width: 100%;
+    margin: auto;
+  }
+
   @media(min-width:$laptop){
     flex-direction: row;
+    width: 1200px
   }
 }
 
 .what-we-do-text{
     margin: auto;
     text-align: center;
-    width: 350px;
+    // width: 350px;
    
      @media(min-width:$tablet){
        width: 500px;
@@ -63,13 +69,11 @@
 
 .content {
   font-family: fansong;
-  width: 100%;
   margin: auto;
 
   @media(min-width:$tablet){
     display: flex;
     flex-direction: row;
-    padding-left: 40px;
     width: 725px;
   }
 
