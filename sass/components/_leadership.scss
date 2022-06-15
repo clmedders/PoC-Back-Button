@@ -1,20 +1,17 @@
 .leadership{
-  text-align: center;
-  font-family: sans-serif;
   display: flex;
   flex-direction: column;
-  width: 100%;
+  font-family: sans-serif;
   padding-top: 15px;
-  position: relative;
-
+  text-align: center;
+  width: 100%;
 }
 
 .leadership-text{
-  text-align: center;
-  width: 325px;
   margin: auto;
   padding-bottom: 50px;
-
+  text-align: center;
+  width: 325px;
 
   @media(min-width:$tablet){
     width: 425px;
@@ -52,11 +49,9 @@
 }
 
 .leadership-group{
-  // display: flex;
-  // flex-direction: column;
-  // margin: auto;
-  // padding-left: 50px;
-  // width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
 
   @media(min-width:$tablet){
     // padding-left: 80px;
@@ -69,25 +64,27 @@
 }
 
 .leadership-pic{
-  width: 200px;
-  // height: 280px;
-  height: auto;
   border-radius: 25px;
+  height: auto;
   margin: 1em;
-  // padding-top: 50px;
+  width: 200px;
   
   @media(min-width:$tablet){
     width: 250px;
-  //  height: 340px;
   }
 }
 
-.title{
-  position: absolute;
-  bottom: 20px;
-  right: 20px;
-  background-color: black;
-  color: black;
-  padding-left: 20px;
-  padding-right: 20px;
-}
+// .leadership-card{
+//   position: relative;
+// }
+
+// .title{
+//   position: absolute;
+//   padding: 2px 16px;
+//   bottom: 20px;
+//   right: 20px;
+//   background-color: black;
+//   color: black;
+//   padding-left: 20px;
+//   padding-right: 20px;
+// }

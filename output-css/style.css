@@ -393,20 +393,19 @@ h1 {
 }
 
 .leadership {
-  text-align: center;
-  font-family: sans-serif;
   display: flex;
   flex-direction: column;
-  width: 100%;
+  font-family: sans-serif;
   padding-top: 15px;
-  position: relative;
+  text-align: center;
+  width: 100%;
 }
 
 .leadership-text {
-  text-align: center;
-  width: 325px;
   margin: auto;
   padding-bottom: 50px;
+  text-align: center;
+  width: 325px;
 }
 @media (min-width: 768px) {
   .leadership-text {
@@ -445,6 +444,11 @@ h1 {
   }
 }
 
+.leadership-group {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
 @media (min-width: 1366px) {
   .leadership-group {
     flex-direction: row;
@@ -452,10 +456,10 @@ h1 {
 }
 
 .leadership-pic {
-  width: 200px;
-  height: auto;
   border-radius: 25px;
+  height: auto;
   margin: 1em;
+  width: 200px;
 }
 @media (min-width: 768px) {
   .leadership-pic {
@@ -463,14 +467,39 @@ h1 {
   }
 }
 
-.title {
-  position: absolute;
-  bottom: 20px;
-  right: 20px;
-  background-color: black;
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+.newsletter-inner {
+  background-color: #006400;
+  border-radius: 5px;
+  margin: 0 auto;
+  padding: 20px 40px;
+  width: 380px;
+  color: white;
+}
+
+.subcribe {
+  background-color: white;
   color: black;
-  padding-left: 20px;
-  padding-right: 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+}
+
+.subcribe-button {
+  border-radius: 8px;
+  border-width: 3px;
+  background-color: #006400;
+  color: white;
+  padding: 5px;
+  display: flex;
+  float: right;
 }
 
 /*# sourceMappingURL=style.css.map */
