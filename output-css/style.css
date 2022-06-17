@@ -467,6 +467,22 @@ h1 {
   }
 }
 
+.leadership-card {
+  position: relative;
+  display: flex;
+  object-fit: contain;
+}
+
+.title {
+  position: absolute;
+  bottom: 5%;
+  left: 20%;
+  color: black;
+  background: white;
+  border-radius: 25px;
+  width: 180px;
+}
+
 .newsletter {
   display: flex;
   flex-direction: column;

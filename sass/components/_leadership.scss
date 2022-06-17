@@ -7,6 +7,7 @@
   width: 100%;
 }
 
+
 .leadership-text{
   margin: auto;
   padding-bottom: 50px;
@@ -52,7 +53,7 @@
   display: flex;
   flex-direction: column;
   margin: auto;
-
+  
   @media(min-width:$tablet){
     // padding-left: 80px;
   }
@@ -65,26 +66,39 @@
 
 .leadership-pic{
   border-radius: 25px;
-  height: auto;
+  height: autoc;
   margin: 1em;
   width: 200px;
+
+
   
   @media(min-width:$tablet){
     width: 250px;
+    // width: 100%;
+
   }
 }
 
-// .leadership-card{
-//   position: relative;
-// }
+.leadership-card{
+  position: relative;
+  display: flex;
+  object-fit: contain;
 
-// .title{
-//   position: absolute;
-//   padding: 2px 16px;
-//   bottom: 20px;
-//   right: 20px;
-//   background-color: black;
-//   color: black;
-//   padding-left: 20px;
-//   padding-right: 20px;
-// }
+}
+
+.title{
+  position: absolute;
+  bottom: 5%;
+  left: 20%;
+  color: black;
+  background: white;
+  border-radius: 25px;
+  width: 180px
+  // padding: 2px 16px;
+  // bottom: 20px;
+  // right: 20px;
+  // background-color: black;
+  // color: black;
+  // padding-left: 20px;
+  // padding-right: 20px;
+}
