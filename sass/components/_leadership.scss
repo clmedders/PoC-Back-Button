@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   font-family: sans-serif;
+  padding-bottom: 50px;
   padding-top: 15px;
   text-align: center;
   width: 100%;
@@ -54,10 +55,6 @@
   flex-direction: column;
   margin: auto;
   
-  @media(min-width:$tablet){
-    // padding-left: 80px;
-  }
-
   @media(min-width:$laptop){
     flex-direction: row;
   }
@@ -70,35 +67,45 @@
   margin: 1em;
   width: 200px;
 
-
-  
   @media(min-width:$tablet){
     width: 250px;
-    // width: 100%;
-
   }
 }
 
 .leadership-card{
-  position: relative;
   display: flex;
   object-fit: contain;
-
+  position: relative;
 }
 
 .title{
-  position: absolute;
-  bottom: 5%;
-  left: 20%;
-  color: black;
   background: white;
   border-radius: 25px;
-  width: 180px
-  // padding: 2px 16px;
-  // bottom: 20px;
-  // right: 20px;
-  // background-color: black;
-  // color: black;
-  // padding-left: 20px;
-  // padding-right: 20px;
+  bottom: 0%;
+  box-shadow: 1px 5px 2px grey;
+  color: black;
+  font-size: 14px;
+  left: 12%;
+  position: absolute;
+  width: 180px;
+
+  @media(min-width:$tablet){
+    left: 20%;
+  }
+
+  h1{
+    font-size: 14px;
+
+    @media(min-width:$tablet){
+      font-size: 16px;
+    }
+  }
+
+  p{
+    font-size: 12px;
+
+    @media(min-width:$tablet){
+      font-size: 14px;
+    }
+  }
 }

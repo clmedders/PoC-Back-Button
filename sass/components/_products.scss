@@ -39,14 +39,8 @@ h1{
 
   @media(min-width:$laptop){
     padding-top: 70px;
-  }
 
-  flex-container{
-    @media(min-width:$laptop){
-      flex-direction: row-reverse;
-    }
   }
-
   h1{
     font-size: 22px;
   }
@@ -80,7 +74,6 @@ h1{
   @media(min-width:$laptop){
   flex-direction: row;
   width: 800px;
-  
   }
 }
 
