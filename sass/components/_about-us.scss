@@ -1,0 +1,87 @@
+.about-us-logo{
+
+  p{
+    color: white;
+    position: absolute;
+    bottom: -10%;
+    left: 30%;
+    font-size: 42px;
+
+    @media(min-width:$tablet){
+      left: 40% 
+    }
+
+    @media(min-width:$laptop){
+      left: 43% 
+    }
+  }
+
+}
+
+.about-us-logo{
+  width: 100%;
+  opacity: 0.9;
+  object-fit: cover;
+  height: 100px;
+  position: relative;
+
+}
+
+.about-us-page{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: sans-serif;
+
+  // @media(min-width:$tablet){
+  //   flex-direction: row;
+  // }
+}
+
+.about-us-text{
+  width: 300px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+
+  h2{
+    color: gray;
+    font-size: 14px;
+  }
+
+  @media(min-width:$laptop){
+    width: 800px;
+    text-align: left;
+  }
+}
+
+.about-us-card{
+  background-color: $green;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 10%;
+  width: 200px;
+  margin: auto;
+
+  p{
+    width: 150px;
+    margin: auto;
+    font-size: 12px;
+  }
+}
+
+.about-us-pic{
+  width: 100px;
+  border-radius: 50%;
+}
+
+.about-us-content{
+  display: flex;
+  flex-direction: column;
+
+  @media(min-width:$tablet){
+    flex-direction: row-reverse;
+  }
+}

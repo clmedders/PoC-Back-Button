@@ -506,6 +506,7 @@ h1 {
   text-align: center;
   font-size: 18px;
   font-family: sans-serif;
+  padding-bottom: 30px;
 }
 
 .newsletter-inner {
@@ -529,6 +530,7 @@ h1 {
     width: 880px;
   }
 }
+
 .subcribe {
   background-color: white;
   color: black;
@@ -557,6 +559,196 @@ h1 {
 @media (min-width: 768px) {
   .subcribe-button {
     float: left;
+  }
+}
+
+.footer {
+  background-color: #006400;
+  font-family: sans-serif;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .footer {
+    flex-direction: row;
+    padding-left: 30px;
+  }
+}
+@media (min-width: 1366px) {
+  .footer {
+    text-align: left;
+    padding-left: 100px;
+  }
+}
+.footer h1 {
+  font-size: 22px;
+  padding-bottom: 15px;
+}
+.footer p {
+  font-size: 14px;
+}
+
+.about-us {
+  width: 350px;
+  margin: auto;
+}
+@media (min-width: 768px) {
+  .about-us {
+    margin: 0px;
+    width: 250px;
+  }
+}
+@media (min-width: 1366px) {
+  .about-us {
+    width: 400px;
+  }
+}
+
+.logo {
+  width: 150px;
+  height: auto;
+}
+
+.social-footer {
+  display: flex;
+  padding-left: 110px;
+}
+@media (min-width: 768px) {
+  .social-footer {
+    padding-left: 30px;
+  }
+}
+@media (min-width: 1366px) {
+  .social-footer {
+    padding-left: 0px;
+  }
+}
+
+.services {
+  width: 250px;
+  margin: auto;
+}
+@media (min-width: 768px) {
+  .services {
+    margin-top: 0px;
+  }
+}
+@media (min-width: 1366px) {
+  .services {
+    width: 400px;
+  }
+}
+
+.contact-us {
+  width: 250px;
+  margin: auto;
+}
+@media (min-width: 768px) {
+  .contact-us {
+    margin-top: 0px;
+  }
+}
+@media (min-width: 1366px) {
+  .contact-us {
+    width: 400px;
+  }
+}
+
+.quicklinks {
+  width: 250px;
+  margin: auto;
+}
+@media (min-width: 768px) {
+  .quicklinks {
+    margin-top: 0px;
+  }
+}
+@media (min-width: 1366px) {
+  .quicklinks {
+    width: 400px;
+  }
+}
+
+.about-us-logo p {
+  color: white;
+  position: absolute;
+  bottom: -10%;
+  left: 30%;
+  font-size: 42px;
+}
+@media (min-width: 768px) {
+  .about-us-logo p {
+    left: 40%;
+  }
+}
+@media (min-width: 1366px) {
+  .about-us-logo p {
+    left: 43%;
+  }
+}
+
+.about-us-logo {
+  width: 100%;
+  opacity: 0.9;
+  object-fit: cover;
+  height: 100px;
+  position: relative;
+}
+
+.about-us-page {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.about-us-text {
+  width: 300px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.about-us-text h2 {
+  color: gray;
+  font-size: 14px;
+}
+@media (min-width: 1366px) {
+  .about-us-text {
+    width: 800px;
+    text-align: left;
+  }
+}
+
+.about-us-card {
+  background-color: #006400;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 10%;
+  width: 200px;
+  margin: auto;
+}
+.about-us-card p {
+  width: 150px;
+  margin: auto;
+  font-size: 12px;
+}
+
+.about-us-pic {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.about-us-content {
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 768px) {
+  .about-us-content {
+    flex-direction: row-reverse;
   }
 }
 
