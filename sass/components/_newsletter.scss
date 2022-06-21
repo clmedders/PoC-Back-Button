@@ -21,16 +21,11 @@
   }
 
   @media(min-width:$laptop){
-    width: 880px;
+    width: 1000px;
+    padding-left: 80px;
   }
 
 
-  // p{    
-  //   // padding-right: 150px;
-  //   // padding-left: 100px;
-
-  //   // width: 500px;
-  // }
 }
 
 .subcribe{
@@ -41,8 +36,13 @@
   flex-direction: row;
   padding-left: 30px;
 
+  @media(min-width:$tablet){
+    width: 300px;
+    margin-left: 70px;
+  }
+
   @media(min-width:$laptop){
-    margin-left: 200px;
+    margin-left: 300px;
   }
   
 }

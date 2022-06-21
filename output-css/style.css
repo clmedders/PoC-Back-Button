@@ -1,6 +1,7 @@
 .container {
   margin: 0 auto;
   max-width: 1200px;
+  overflow-x: hidden;
 }
 
 ul li {
@@ -331,6 +332,11 @@ h1 {
   font-size: 32px;
 }
 
+.product-text {
+  width: 350px;
+  margin: auto;
+}
+
 .beer {
   width: 375px;
   margin: auto;
@@ -346,12 +352,17 @@ h1 {
 }
 
 .coffee {
-  width: 375px;
+  width: 350px;
   margin: auto;
+  display: flex;
+  flex-direction: column;
 }
 @media (min-width: 1366px) {
   .coffee {
     padding-top: 70px;
+    width: 800px;
+    flex-direction: row-reverse;
+    text-align: left;
   }
 }
 .coffee h1 {
@@ -364,27 +375,44 @@ h1 {
   font-size: 14px;
 }
 
-.beer-pic {
-  border-radius: 4px;
-  width: 250px;
+.beer {
+  width: 350px;
   margin: auto;
-}
-
-.coffee-pic {
-  border-radius: 50%;
-  width: 250px;
-  margin: auto;
-}
-
-.flex-container {
   display: flex;
   flex-direction: column;
 }
 @media (min-width: 1366px) {
-  .flex-container {
-    flex-direction: row;
+  .beer {
+    padding-top: 70px;
     width: 800px;
+    flex-direction: row;
+    text-align: left;
   }
+}
+.beer h1 {
+  font-size: 22px;
+}
+.beer h2 {
+  font-size: 16px;
+}
+.beer p {
+  font-size: 14px;
+}
+
+.beer-pic {
+  border-radius: 100%;
+  display: block;
+  width: 250px;
+  height: auto;
+  margin: auto;
+}
+
+.coffee-pic {
+  border-radius: 100%;
+  display: block;
+  width: 250px;
+  height: auto;
+  margin: auto;
 }
 
 .leadership {
@@ -527,7 +555,8 @@ h1 {
 }
 @media (min-width: 1366px) {
   .newsletter-inner {
-    width: 880px;
+    width: 1000px;
+    padding-left: 80px;
   }
 }
 
@@ -539,9 +568,15 @@ h1 {
   flex-direction: row;
   padding-left: 30px;
 }
+@media (min-width: 768px) {
+  .subcribe {
+    width: 300px;
+    margin-left: 70px;
+  }
+}
 @media (min-width: 1366px) {
   .subcribe {
-    margin-left: 200px;
+    margin-left: 300px;
   }
 }
 
@@ -671,6 +706,13 @@ h1 {
   }
 }
 
+.about-us-logo {
+  width: 100%;
+  opacity: 0.9;
+  object-fit: cover;
+  height: 100px;
+  position: relative;
+}
 .about-us-logo p {
   color: white;
   position: absolute;
@@ -687,14 +729,6 @@ h1 {
   .about-us-logo p {
     left: 43%;
   }
-}
-
-.about-us-logo {
-  width: 100%;
-  opacity: 0.9;
-  object-fit: cover;
-  height: 100px;
-  position: relative;
 }
 
 .about-us-page {
@@ -750,6 +784,116 @@ h1 {
   .about-us-content {
     flex-direction: row-reverse;
   }
+}
+@media (min-width: 1366px) {
+  .about-us-content {
+    width: 1200px;
+    margin: auto;
+  }
+}
+
+.blog-logo {
+  width: 100%;
+  opacity: 0.9;
+  object-fit: cover;
+  height: 100px;
+  position: relative;
+}
+.blog-logo p {
+  color: white;
+  position: absolute;
+  bottom: -10%;
+  left: 40%;
+  font-size: 42px;
+}
+@media (min-width: 768px) {
+  .blog-logo p {
+    left: 40%;
+  }
+}
+@media (min-width: 1366px) {
+  .blog-logo p {
+    left: 43%;
+  }
+}
+
+.blog-page {
+  font-family: sans-serif;
+}
+
+.beer-blog {
+  width: 350px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 1px 5px 2px grey;
+  border-radius: 25px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.beer-blog ul {
+  font-size: 12px;
+  display: flex;
+  flex-direction: row;
+}
+.beer-blog li {
+  margin: 0.5em;
+}
+.beer-blog h1 {
+  font-size: 22px;
+  width: 300px;
+  margin: auto;
+  padding-bottom: 10px;
+}
+.beer-blog h2 {
+  font-size: 14px;
+  width: 300px;
+  margin: auto;
+  padding-bottom: 10px;
+}
+
+.beer-blog-pic {
+  width: 350px;
+  height: auto;
+  border-radius: 25px;
+}
+
+.coffee-blog {
+  width: 350px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 1px 5px 2px grey;
+  border-radius: 25px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.coffee-blog ul {
+  font-size: 12px;
+  display: flex;
+  flex-direction: row;
+}
+.coffee-blog li {
+  margin: 0.5em;
+}
+.coffee-blog h1 {
+  font-size: 22px;
+  width: 300px;
+  margin: auto;
+  padding-bottom: 10px;
+}
+.coffee-blog h2 {
+  font-size: 14px;
+  width: 300px;
+  margin: auto;
+  padding-bottom: 10px;
+}
+
+.coffee-blog-pic {
+  width: 350px;
+  height: auto;
+  border-radius: 25px;
 }
 
 /*# sourceMappingURL=style.css.map */

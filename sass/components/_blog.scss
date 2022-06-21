@@ -1,0 +1,117 @@
+.blog-logo{
+  width: 100%;
+  opacity: 0.9;
+  object-fit: cover;
+  height: 100px;
+  position: relative;
+
+  p{
+    color: white;
+    position: absolute;
+    bottom: -10%;
+    left: 40%;
+    font-size: 42px;
+
+    @media(min-width:$tablet){
+      left: 40% 
+    }
+
+    @media(min-width:$laptop){
+      left: 43% 
+    }
+  }
+}
+
+.blog-page{
+  font-family: sans-serif;
+}
+
+.beer-blog{
+  width: 350px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 1px 5px 2px grey;
+  border-radius: 25px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+
+
+  ul{
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  li{
+    margin: .5em;
+  }
+
+  h1{
+    font-size: 22px;
+    width: 300px;
+    margin: auto;
+    padding-bottom: 10px;
+  }
+
+  h2{
+    font-size: 14px;
+    width: 300px;
+    margin: auto;
+    padding-bottom: 10px;
+  }
+
+}
+
+.beer-blog-pic{
+  width: 350px;
+  height: auto;
+  border-radius: 25px;
+  
+}
+
+.coffee-blog{
+  width: 350px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 1px 5px 2px grey;
+  border-radius: 25px;
+  margin-bottom: 50px;
+  text-align: center;
+
+
+
+  ul{
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  li{
+    margin: .5em;
+  }
+
+  h1{
+    font-size: 22px;
+    width: 300px;
+    margin: auto;
+    padding-bottom: 10px;
+  }
+
+  h2{
+    font-size: 14px;
+    width: 300px;
+    margin: auto;
+    padding-bottom: 10px;
+  }
+
+}
+
+.coffee-blog-pic{
+  width: 350px;
+  height: auto;
+  border-radius: 25px;
+  
+}

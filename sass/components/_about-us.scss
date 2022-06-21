@@ -1,4 +1,9 @@
 .about-us-logo{
+  width: 100%;
+  opacity: 0.9;
+  object-fit: cover;
+  height: 100px;
+  position: relative;
 
   p{
     color: white;
@@ -15,15 +20,6 @@
       left: 43% 
     }
   }
-
-}
-
-.about-us-logo{
-  width: 100%;
-  opacity: 0.9;
-  object-fit: cover;
-  height: 100px;
-  position: relative;
 
 }
 
@@ -83,5 +79,10 @@
 
   @media(min-width:$tablet){
     flex-direction: row-reverse;
+  }
+
+  @media(min-width:$laptop){
+    width: 1200px;
+    margin: auto;
   }
 }
