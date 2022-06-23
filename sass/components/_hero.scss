@@ -1,6 +1,5 @@
 .hero{
   display: flex;
-
 }
 
 .hero-image{
@@ -37,13 +36,13 @@
   }
 
   @media(min-width:$laptop) {
-    padding-left: 200px;
+    padding-left: 90px;
     width: 900px
   }
 
   h1 {
     @media(min-width:$laptop){
-    font-size: 40px;
+    font-size: 48px;
     }
   }
 
@@ -53,23 +52,17 @@
     }
   }
 
-  // box-sizing: border-box;
-  // box-shadow: inset 50px 0 30px 0 $green;
-  // height: 195px;
-  // width: 414px;
 }
 
 .hero-button{
-
     border-radius: 8px;
     border-style: solid;
     border-width: 3px;
     color: white;
-    // display: block;
     font-family: sans-serif;
     font-weight: bold;
     padding: 10px;
     width: fit-content;
-    background: $green;
-    border-color: $green;
+    background: #1B8036;
+    border-color: #1B8036;
 }

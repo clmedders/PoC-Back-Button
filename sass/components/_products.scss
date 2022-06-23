@@ -1,15 +1,12 @@
 .product{
   display: flex;
-  background-color: $green;
+  background: linear-gradient(100.66deg, rgba(30, 165, 66, 0.92) 23.13%, #0E6706 82.12%, rgba(27, 128, 54, 0.9) 97.79%);
   color: white;
-  width: 100%;
-  margin: auto;
   text-align: center;
-  font-family: sans-serif;
+  font-family: Roboto;
   padding-top: 15px;
   padding-bottom: 15px;
   flex-direction: column;
-
 }
 
 h1{
@@ -19,51 +16,14 @@ h1{
 .product-text{
   width: 350px;
   margin: auto;
-}
-
-.beer{
-  width: 375px;
-  margin: auto;
-
-  h1{
-    font-size: 22px;
-  }
-
-  h2{
-    font-size: 16px;
-  }
-
-  p{
-    font-size: 14px;
-  }
-}
-
-.coffee{
-  width: 350px;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
 
   @media(min-width:$laptop){
-    padding-top: 70px;
-    width: 800px;
-    flex-direction: row-reverse;
-    text-align: left;
-  }
-  h1{
-    font-size: 22px;
-  }
+    width: 500px;
 
-  h2{
-    font-size: 16px;
-  }
-
-  p{
-    font-size: 14px;
   }
 }
 
-.beer{
+.jman{
   width: 350px;
   margin: auto;
   display: flex;
@@ -78,51 +38,111 @@ h1{
 
   h1{
     font-size: 22px;
+
+    @media(min-width:$tablet){
+      font-size: 30px;
+    }
+
+    @media(min-width:$laptop){
+      font-size: 36px;
+    }
   }
 
   h2{
     font-size: 16px;
+
+    @media(min-width:$tablet){
+      font-size: 20px;
+    }
+
+    @media(min-width:$laptop){
+      font-size: 24px;
+    }
   }
 
   p{
     font-size: 14px;
+
+    @media(min-width:$tablet){
+      font-size: 16px;
+    }
+
+    @media(min-width:$laptop){
+      font-size: 18px;
+    }
   }
 }
 
-.beer-pic{
-  // border-radius: 10px;
+.computer{
+  width: 350px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+
+  @media(min-width:$laptop){
+    padding-top: 70px;
+    width: 800px;
+    flex-direction: row-reverse;
+    text-align: left;
+  }
+
+  h1{
+    font-size: 22px;
+
+    @media(min-width:$tablet){
+      font-size: 30px;
+    }
+
+    @media(min-width:$laptop){
+      font-size: 36px;
+    }
+  }
+
+  h2{
+    font-size: 16px;
+
+    @media(min-width:$tablet){
+      font-size: 20px;
+    }
+
+    @media(min-width:$laptop){
+      font-size: 24px;
+    }
+  }
+
+  p{
+    font-size: 14px;
+
+    @media(min-width:$tablet){
+      font-size: 16px;
+    }
+
+    @media(min-width:$laptop){
+      font-size: 18px;
+    }
+  }
+}
+
+.jman-pic{
+  display: block;
+  width: 150px;
+  height: auto;
+  margin: auto;
+
+  @media(min-width:$laptop){
+    width: 250px;
+  }
+
+}
+
+.computer-pic{
   border-radius: 100%;
   display: block;
   width: 250px;
   height: auto;
   margin: auto;
 
-  // @media(min-width:$laptop){
-  //   padding-left: 100px;
-  // }
-
+  @media(min-width:$laptop){
+    width: 350px;
+  }
 }
-
-.coffee-pic{
-  border-radius: 100%;
-  display: block;
-  width: 250px;
-  height: auto;
-  margin: auto;
-
-  // @media(min-width:$laptop){
-  //   padding-right: 100px;
-  // }
-
-}
-
-// .flex-container{
-//   display: flex;
-//   flex-direction: column;
-
-//   @media(min-width:$laptop){
-//   // flex-direction: row;
-//   width: 800px;
-//   }
-// }
-

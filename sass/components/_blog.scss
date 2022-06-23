@@ -23,10 +23,10 @@
 }
 
 .blog-page{
-  font-family: sans-serif;
+  font-family: Roboto;
 }
 
-.beer-blog{
+.car-blog{
   width: 350px;
   margin: auto;
   display: flex;
@@ -37,11 +37,27 @@
   margin-bottom: 50px;
   text-align: center;
 
+  @media(min-width:$tablet){
+    width: 600px;
+  }
+
+  @media(min-width:$laptop){
+    width: 870px;
+  }
 
   ul{
     font-size: 12px;
     display: flex;
     flex-direction: row;
+    padding-left: 60px;
+
+    @media(min-width:$tablet){
+      padding-left: 190px;
+    }
+
+    @media(min-width:$laptop){
+      padding-left: 80px;
+    }
   }
 
   li{
@@ -53,25 +69,46 @@
     width: 300px;
     margin: auto;
     padding-bottom: 10px;
+
+    @media(min-width:$tablet){
+      width: 500px;
+    }
+
+    @media(min-width:$laptop){
+      font-size: 30px;
+      width: 700px;
+      text-align: left;
+    }
   }
 
   h2{
     font-size: 14px;
     width: 300px;
     margin: auto;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
+    color: #3D3D3D;
+
+    @media(min-width:$tablet){
+      width: 500px;
+    }
+
+    @media(min-width:$laptop){
+      font-size: 16px;
+      text-align: left;
+      width: 700px;
+    }
   }
 
 }
 
-.beer-blog-pic{
-  width: 350px;
-  height: auto;
-  border-radius: 25px;
+// .car-blog-pic{
+//   width: 350px;
+//   height: auto;
+//   border-radius: 25px;
   
-}
+// }
 
-.coffee-blog{
+.clock-blog{
   width: 350px;
   margin: auto;
   display: flex;
@@ -80,13 +117,29 @@
   border-radius: 25px;
   margin-bottom: 50px;
   text-align: center;
+  color: #3D3D3D;
 
+  @media(min-width:$tablet){
+    width: 600px;
+  }
 
+  @media(min-width:$laptop){
+    width: 870px;
+  }
 
   ul{
     font-size: 12px;
     display: flex;
     flex-direction: row;
+    padding-left: 60px;
+
+    @media(min-width:$tablet){
+      padding-left: 190px;
+    }
+
+    @media(min-width:$laptop){
+      padding-left: 80px;
+    }
   }
 
   li{
@@ -98,20 +151,40 @@
     width: 300px;
     margin: auto;
     padding-bottom: 10px;
+
+    @media(min-width:$tablet){
+      width: 500px;
+    }
+
+    @media(min-width:$laptop){
+      width: 700px;
+      text-align: left;
+      font-size: 30px;
+    }
   }
 
   h2{
     font-size: 14px;
     width: 300px;
     margin: auto;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
+
+    @media(min-width:$tablet){
+      width: 500px;
+    }
+
+    @media(min-width:$laptop){
+      width: 700px;
+      text-align: left;
+      font-size: 16px;
+    }
   }
 
 }
 
-.coffee-blog-pic{
-  width: 350px;
-  height: auto;
-  border-radius: 25px;
+// .clock-blog-pic{
+//   width: 350px;
+//   height: auto;
+//   border-radius: 25px;
   
-}
+// }

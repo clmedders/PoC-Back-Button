@@ -28,12 +28,9 @@
   display: flex;
   flex-direction: column;
   text-align: center;
-  font-family: sans-serif;
+  font-family: Roboto;
+  }
 
-  // @media(min-width:$tablet){
-  //   flex-direction: row;
-  // }
-}
 
 .about-us-text{
   width: 300px;
@@ -43,7 +40,29 @@
 
   h2{
     color: gray;
-    font-size: 14px;
+    font-size: 15px;
+  }
+
+  h3{
+    font-size: 22px;
+    font-weight: 700;
+
+    @media(min-width:$laptop){
+      font-size: 36px;
+    }
+  }
+
+  p{
+    font-size: 16px;
+    font-weight: 400;
+
+    @media(min-width:$tablet){
+      font-size: 20px;
+    }
+
+    @media(min-width:$laptop){
+      font-size: 24px;
+    }
   }
 
   @media(min-width:$laptop){
@@ -53,13 +72,15 @@
 }
 
 .about-us-card{
-  background-color: $green;
   color: white;
   padding-top: 20px;
   padding-bottom: 20px;
-  border-radius: 10%;
+  border-radius: 5%;
   width: 200px;
   margin: auto;
+   background: linear-gradient(180deg, #2C8945 0%, rgba(109, 214, 137, 0.69) 0.01%, #1B8036 99.48%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
 
   p{
     width: 150px;

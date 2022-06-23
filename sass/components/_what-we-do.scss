@@ -1,8 +1,8 @@
 .what-we-do{
   display: flex;
   flex-direction: column;
-  font-family: sans-serif;
-  padding-top: 50px;
+  font-family: Roboto;
+  padding-top: 120px;
   width: 350px;
   margin: 0 auto;
   padding-bottom: 20px;
@@ -21,7 +21,6 @@
 .what-we-do-text{
     margin: auto;
     text-align: center;
-    // width: 350px;
    
      @media(min-width:$tablet){
        width: 500px;
@@ -32,38 +31,37 @@
      }
    
      p {
-       color: grey;
+       color: #C4C4C4;
        font-size: 12px;
    
        @media(min-width:$laptop){
-         font-size: 14px;
+         font-size: 15px;
        }
      }
    
      h1{
-       font-size: 22px;
+       font-size: 26px;
+       color: #000000;
    
        @media(min-width:$laptop){
-         font-size: 32px;
+         font-size: 36px;
        }
      }
    
      h2{
        font-size: 16px;
        font-weight: lighter;
+       color: #464749;
    
        @media(min-width:$laptop){
-         font-size: 22px;
+         font-size: 24px;
        }
      }
 
      h3{
-      font-size: 14px;
+      font-size: 15px;
       font-weight: lighter;
-  
-      @media(min-width:$laptop){
-        font-size: 20px;
-      }
+      color: #99999A;
     }
 }
 
@@ -85,9 +83,10 @@
 }
 
 .content-card{
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 10px 10px 20px rgba(0,0,0,0.25);
   margin: 1em;
   padding: 10px;
   text-align: center;
   width: 250px;
+  border-radius: 10px;
 }

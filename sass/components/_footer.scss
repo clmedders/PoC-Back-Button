@@ -1,11 +1,9 @@
 .footer{
-  background-color: $green;
+  background: linear-gradient(100.66deg, #1B8036 23.13%, rgba(8, 63, 26, 0.92) 82.12%, rgba(8, 63, 26, 0.86) 97.79%);
   font-family: sans-serif;
   color: white;
   display: flex;
   flex-direction: column;
-  // width: 100%;
-  // margin: auto;
   text-align: center;
 
   @media(min-width:$tablet){
@@ -25,6 +23,11 @@
 
   p{
     font-size: 14px;
+
+    @media(min-width:$laptop){
+      width: 250px;
+    }
+   
   }
 }
 
@@ -45,6 +48,13 @@
 .logo{
   width: 150px;
   height: auto;
+  background: white;
+}
+
+.social-logo{
+  width: 20px;
+  height: auto;
+  margin: .3em;
 }
 
 .social-footer{
@@ -52,7 +62,7 @@
   padding-left: 110px;
 
   @media(min-width:$tablet){
-  padding-left: 30px;
+  padding-left: 15px;
   }
 
   @media(min-width:$laptop){

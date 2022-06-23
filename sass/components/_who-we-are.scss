@@ -1,7 +1,7 @@
 .who-we-are{
  display: flex;
  flex-direction: column;
- font-family: sans-serif;
+ font-family: Roboto;
  margin: 0 auto;
  padding-top: 50px;
  width: 100%;
@@ -53,17 +53,33 @@
   }
 }
 
-.cb-pic{
+.devices-pic{
   border-radius: 50%;
   margin: auto;
+  padding-top: 30px;
   width: 350px;
 
+  @media(min-width:$laptop){
+    left: 90px;
+    top: 742px;
+    width: 570px;
+  }
+}
+
+.splat-pic{
+  left: 15%;
+  position: absolute;
+  top: 160%;
+  width: 200px;
+
   @media(min-width:$tablet){
-    padding-top: 30px;
+    left: 30%;
+    top: 170%;
   }
 
   @media(min-width:$laptop){
-    width: 500px;
+    left: 10%;
+    top: 200%;
+    width: 250px;
   }
-
 }

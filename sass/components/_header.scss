@@ -1,28 +1,52 @@
+// .header{
+//   background-color: #1B8036;
+//   display: flex;
+//   height: 50px;
+// }
+
 .navbar-contact{
-  background-color: $green;
+  background-color: #1B8036;
   display: flex;
   height: 50px;
   justify-content: space-between;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+
 }
 
 .social-media{
   display: flex;
-  padding-left: 0px;
+  padding-left: 10px;
 
   @media(min-width:$tablet) {
-    margin-top: 10px;
+    margin-top: 15px;
     padding-left: 50px;
   }
   
   @media(min-width:$laptop){
-    padding-left: 100px
+    position: absolute;
+    width: 147px;
+    height: 27px;
+    left: 116px;
+    opacity: 0.6;
   }
 }
 
 .socal-logo{
-  height: auto;
+  // height: auto;
   margin: 0.3em;
-  width: 20px;
+  // width: 15px;
+  // background: #FFFFFF;
+
+  height: 12px;
+  width: 13px;
+  left: 6px;
+  top: 8px;
+  border-radius: 0px;
+
 
   @media(min-width:$tablet) {
     margin-right: 0.5em;
@@ -32,18 +56,21 @@
 .contact-info{
   color: white;
   display: flex;
-  font-size: 14px;
+  font-size: 10px;
   padding-left: 0px;
   padding-right: 10px;
+  padding-top: 5px;
 
   @media(min-width:$tablet) {
     font-size: 18px;
-    margin-top: 10px;
-    padding-right: 80px;
+    margin-top: 5px;
+    padding-right: 60px;
   }
 
   @media(min-width:$laptop){
-    padding-right: 160px
+    padding-right: 16px;
+    margin-left: 700px;
+  
   }
 
   li{

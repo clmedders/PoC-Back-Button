@@ -24,28 +24,30 @@
   }
 
   p {
-    color: grey;
+    color: #000000;
     font-size: 12px;
 
     @media(min-width:$laptop){
-      font-size: 14px;
+      font-size: 16px;
     }
   }
 
   h1{
     font-size: 22px;
+    color: #000000;
 
     @media(min-width:$laptop){
-      font-size: 32px;
+      font-size: 36px;
     }
   }
 
   h2{
     font-size: 16px;
     font-weight: lighter;
+    color: #000000;
 
     @media(min-width:$laptop){
-      font-size: 22px;
+      font-size: 18px;
     }
   }
 }

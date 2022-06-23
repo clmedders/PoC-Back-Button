@@ -1,12 +1,12 @@
 .newsletter{
   text-align: center;
   font-size: 18px;
-  font-family: sans-serif;
+  font-family: Roboto;
   padding-bottom: 30px;
 }
 
 .newsletter-inner{
-  background-color: $green;
+  background: linear-gradient(90.54deg, #52FA43 7.9%, rgba(27, 128, 54, 0.89) 92.98%);
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -50,7 +50,7 @@
 .subcribe-button{
   border-radius: 8px;
   border-width: 3px;
-  background-color: $green;
+  background: #1B8036;
   color: white;
   padding: 5px;
   display: flex;
