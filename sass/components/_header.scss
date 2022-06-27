@@ -1,29 +1,39 @@
 // .header{
-//   background-color: #1B8036;
-//   display: flex;
-//   height: 50px;
+//   // background-color: #1B8036;
+//   // display: flex;
+//   // height: 50px;
+//   // font-family: Roboto;
 // }
 
 .navbar-contact{
   background-color: #1B8036;
   display: flex;
-  height: 50px;
+  height: 100px;
   justify-content: space-between;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
   line-height: 18px;
+  flex-direction: column;
 
+  @media(min-width:$tablet){
+    flex-direction: row;
+    height: 50px;
+  }
 }
 
 .social-media{
   display: flex;
-  padding-left: 10px;
+  padding-top: 30px;
+  margin: auto;
+  padding-left: 0px;
 
   @media(min-width:$tablet) {
     margin-top: 15px;
     padding-left: 50px;
+    padding-top: 0px;
+
   }
   
   @media(min-width:$laptop){
@@ -32,6 +42,7 @@
     height: 27px;
     left: 116px;
     opacity: 0.6;
+    padding-left: 0px;
   }
 }
 
@@ -60,20 +71,101 @@
   padding-left: 0px;
   padding-right: 10px;
   padding-top: 5px;
+  padding-bottom: 15px;
+  margin: auto;
 
   @media(min-width:$tablet) {
     font-size: 18px;
     margin-top: 5px;
-    padding-right: 60px;
   }
 
   @media(min-width:$laptop){
     padding-right: 16px;
-    margin-left: 700px;
-  
+    margin-left: 825px;
   }
 
   li{
   margin: 0.5em;
+  font-size: 14px;
+  }
+}
+
+.menu{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: Roboto;
+  justify-content: space-between;
+  // display: none;
+  // overflow: hidden;
+
+  @media(min-width:$tablet){
+    flex-direction: row;
+  }
+
+  @media(min-width:$laptop){
+    height: 73px;
+  }
+}
+
+.menu-logo{
+  width: 100px;
+  margin: auto;
+}
+
+.menu-list{
+  padding-left: 0px;
+  display: flex;
+  flex-direction: column;
+
+  @media(min-width:$tablet){
+    flex-direction: row;
+  }
+
+}
+.menu-item{
+  margin: .5em;
+
+  @media(min-width:$laptop){
+    font-size: 18px;
+    margin: 1em;
+  }
+}
+
+.menu-button{
+  background: #1B8036;
+  box-shadow: 3px 10px 20px rgba(27, 128, 54, 0.51);
+  border-radius: 24.5px;
+  color: white;
+  width: 100px;
+  height: 30px;  
+  margin: auto;
+
+  @media(min-width:$laptop){
+    width: 141px;
+    height: 49px; 
+    font-size: 18px;
+  }
+}
+
+// .hamburger{
+//   // background-color: transparent;
+//   border: 0;
+//   // color: #1B8036;
+//   color: #1B8036;
+
+//   font-size: 40px;
+// }
+
+// .fa fa-bars{}
+
+.fa{
+  color: #1B8036;
+  position: relative;
+  left: 80%;
+  padding-top: 10px;
+
+  @media(min-width:$tablet){
+    visibility: hidden;
   }
 }
