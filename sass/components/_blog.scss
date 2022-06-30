@@ -1,16 +1,22 @@
+
+.blog-page{
+  font-family: Roboto;
+}
+
 .blog-logo{
-  width: 100%;
-  opacity: 0.9;
-  object-fit: cover;
   height: 100px;
+  object-fit: cover;
+  opacity: 0.9;
+  padding-top: 10px;
   position: relative;
+  width: 100%;
 
   p{
+    bottom: -30%;
     color: white;
-    position: absolute;
-    bottom: -10%;
-    left: 40%;
     font-size: 42px;
+    left: 40%;
+    position: absolute;
 
     @media(min-width:$tablet){
       left: 40% 
@@ -22,20 +28,33 @@
   }
 }
 
-.blog-page{
-  font-family: Roboto;
+.blog-content{
+  display: flex;
+  flex-direction: column;
+
+  @media(min-width:$tablet){
+    flex-direction: row;
+  }
+}
+
+.blog-post{
+
+  @media(min-width:$laptop){
+    padding-left: 100px;
+  }
 }
 
 .car-blog{
-  width: 350px;
-  margin: auto;
+  border-radius: 25px;
+  box-shadow: 1px 5px 2px grey;
   display: flex;
   flex-direction: column;
-  box-shadow: 1px 5px 2px grey;
-  border-radius: 25px;
-  margin-top: 50px;
   margin-bottom: 50px;
+  margin-top: 50px;
+  margin: auto;
+  position: relative;
   text-align: center;
+  width: 350px;
 
   @media(min-width:$tablet){
     width: 600px;
@@ -46,9 +65,9 @@
   }
 
   ul{
-    font-size: 12px;
     display: flex;
     flex-direction: row;
+    font-size: 12px;
     padding-left: 60px;
 
     @media(min-width:$tablet){
@@ -66,9 +85,9 @@
 
   h1{
     font-size: 22px;
-    width: 300px;
     margin: auto;
     padding-bottom: 10px;
+    width: 300px;
 
     @media(min-width:$tablet){
       width: 500px;
@@ -76,17 +95,17 @@
 
     @media(min-width:$laptop){
       font-size: 30px;
-      width: 700px;
       text-align: left;
+      width: 700px;
     }
   }
 
   h2{
+    color: #3D3D3D;
     font-size: 14px;
-    width: 300px;
     margin: auto;
     padding-bottom: 30px;
-    color: #3D3D3D;
+    width: 300px;
 
     @media(min-width:$tablet){
       width: 500px;
@@ -99,25 +118,26 @@
     }
   }
 
-}
+  p{
+    background: #1B8036;
+    border-radius: 15px;
+    color: white;
+    width: 115px;
+  }
 
-// .car-blog-pic{
-//   width: 350px;
-//   height: auto;
-//   border-radius: 25px;
-  
-// }
+}
 
 .clock-blog{
-  width: 350px;
-  margin: auto;
+  border-radius: 25px;
+  box-shadow: 1px 5px 2px grey;
+  color: #3D3D3D;
   display: flex;
   flex-direction: column;
-  box-shadow: 1px 5px 2px grey;
-  border-radius: 25px;
   margin-bottom: 50px;
+  margin: auto;
+  position: relative;
   text-align: center;
-  color: #3D3D3D;
+  width: 350px;
 
   @media(min-width:$tablet){
     width: 600px;
@@ -128,9 +148,9 @@
   }
 
   ul{
-    font-size: 12px;
     display: flex;
     flex-direction: row;
+    font-size: 12px;
     padding-left: 60px;
 
     @media(min-width:$tablet){
@@ -148,43 +168,196 @@
 
   h1{
     font-size: 22px;
-    width: 300px;
     margin: auto;
     padding-bottom: 10px;
+    width: 300px;
 
     @media(min-width:$tablet){
       width: 500px;
     }
 
     @media(min-width:$laptop){
-      width: 700px;
-      text-align: left;
       font-size: 30px;
+      text-align: left;
+      width: 700px;
     }
   }
 
   h2{
     font-size: 14px;
-    width: 300px;
     margin: auto;
     padding-bottom: 30px;
+    width: 300px;
 
     @media(min-width:$tablet){
       width: 500px;
     }
 
     @media(min-width:$laptop){
-      width: 700px;
-      text-align: left;
       font-size: 16px;
+      text-align: left;
+      width: 700px;
     }
+  }
+
+  p{
+    background: #1B8036;
+    border-radius: 15px;
+    color: white;
+    width: 115px;
   }
 
 }
 
-// .clock-blog-pic{
-//   width: 350px;
-//   height: auto;
-//   border-radius: 25px;
-  
-// }
+.blog-tag{
+  display: flex;
+  left: 10%;
+  position: absolute;
+}
+
+.side-items{
+  display: flex;
+  flex-direction: column;
+  font-family: SF UI Display;
+  margin: auto;
+  text-align: center;
+  width: 300px;
+
+  @media(min-width:$laptop){
+    margin-top: 50px;
+    text-align: left;
+  }
+}
+
+.search{
+  background: #FFFFFF;
+  border-radius: 30px;
+  color: #696969;
+  font-size: 18px;
+  height: 45px;  
+  margin: auto;
+  padding-left: 50px;
+  text-align: left;
+  width: 250px;
+}
+
+.recent-posts{
+  h1{
+    font-size: 20px;
+
+    @media(min-width:$tablet){
+      font-size: 24px;
+    }
+  }
+
+  p{
+    font-size: 12px;
+
+    @media(min-width:$tablet){
+      font-size: 14px;
+    }
+  }
+}
+
+.recent-comments{
+
+  h1{
+    font-size: 20px;
+
+    @media(min-width:$tablet){
+      font-size: 24px;
+    }
+  }
+
+  p{
+    font-size: 12px;
+
+    @media(min-width:$tablet){
+      font-size: 14px;
+    }
+  }
+}
+
+.categories{
+
+  h1{
+    font-size: 20px;
+
+    @media(min-width:$tablet){
+      font-size: 24px;
+    }
+  }
+
+  ul{
+    padding-left: 0px;
+  }
+
+  li{
+    font-size: 12px;
+
+    @media(min-width:$tablet){
+      font-size: 14px;
+    }
+  }
+}
+
+.posts{
+  width: 300px;
+  margin: auto;
+
+  h1{
+    font-size: 20px;
+
+    @media(min-width:$tablet){
+      font-size: 24px;
+    }
+  }
+
+  p{
+    font-size: 12px;
+
+    @media(min-width:$tablet){
+      font-size: 14px;
+    }
+  }
+}
+
+.instagram{
+
+  h1{
+    font-size: 20px;
+
+    @media(min-width:$tablet){
+      font-size: 24px;
+    }
+  }
+}
+
+.tags{
+  padding-bottom: 10px;
+
+  h1{
+    font-size: 20px;
+
+    @media(min-width:$tablet){
+      font-size: 24px;
+    }
+  }
+
+  ul{
+    display: flex;
+    margin: .5em;
+
+    @media(min-width:$laptop){
+      margin-left: 0px;
+      padding-left: 0px;
+    }
+  }
+
+  li{
+    background: #E9F2FF;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 5px;
+  }
+}

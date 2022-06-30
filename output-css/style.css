@@ -21,14 +21,14 @@ header, footer, div, section {
 .navbar-contact {
   background-color: #1B8036;
   display: flex;
-  height: 100px;
-  justify-content: space-between;
+  flex-direction: column;
   font-family: "Roboto";
+  font-size: 15px;
   font-style: normal;
   font-weight: 400;
-  font-size: 15px;
+  height: 100px;
+  justify-content: space-between;
   line-height: 18px;
-  flex-direction: column;
 }
 @media (min-width: 768px) {
   .navbar-contact {
@@ -39,9 +39,9 @@ header, footer, div, section {
 
 .social-media {
   display: flex;
-  padding-top: 30px;
   margin: auto;
   padding-left: 0px;
+  padding-top: 30px;
 }
 @media (min-width: 768px) {
   .social-media {
@@ -52,22 +52,22 @@ header, footer, div, section {
 }
 @media (min-width: 1366px) {
   .social-media {
-    position: absolute;
-    width: 147px;
     height: 27px;
     left: 116px;
     opacity: 0.6;
     padding-left: 0px;
+    position: absolute;
+    width: 147px;
   }
 }
 
 .socal-logo {
-  margin: 0.3em;
-  height: 12px;
-  width: 13px;
-  left: 6px;
-  top: 8px;
   border-radius: 0px;
+  height: 12px;
+  left: 6px;
+  margin: 0.3em;
+  top: 8px;
+  width: 13px;
 }
 @media (min-width: 768px) {
   .socal-logo {
@@ -79,11 +79,11 @@ header, footer, div, section {
   color: white;
   display: flex;
   font-size: 10px;
+  margin: auto;
+  padding-bottom: 15px;
   padding-left: 0px;
   padding-right: 10px;
   padding-top: 5px;
-  padding-bottom: 15px;
-  margin: auto;
 }
 @media (min-width: 768px) {
   .contact-info {
@@ -93,21 +93,21 @@ header, footer, div, section {
 }
 @media (min-width: 1366px) {
   .contact-info {
-    padding-right: 16px;
     margin-left: 825px;
+    padding-right: 16px;
   }
 }
 .contact-info li {
-  margin: 0.5em;
   font-size: 14px;
+  margin: 0.5em;
 }
 
 .menu {
   display: flex;
   flex-direction: column;
-  text-align: center;
   font-family: Roboto;
   justify-content: space-between;
+  text-align: center;
 }
 @media (min-width: 768px) {
   .menu {
@@ -121,14 +121,14 @@ header, footer, div, section {
 }
 
 .menu-logo {
-  width: 100px;
   margin: auto;
+  width: 100px;
 }
 
 .menu-list {
-  padding-left: 0px;
   display: flex;
   flex-direction: column;
+  padding-left: 0px;
 }
 @media (min-width: 768px) {
   .menu-list {
@@ -148,12 +148,12 @@ header, footer, div, section {
 
 .menu-button {
   background: #1B8036;
-  box-shadow: 3px 10px 20px rgba(27, 128, 54, 0.51);
   border-radius: 24.5px;
+  box-shadow: 3px 10px 20px rgba(27, 128, 54, 0.51);
   color: white;
-  width: 100px;
   height: 30px;
   margin: auto;
+  width: 100px;
 }
 @media (min-width: 1366px) {
   .menu-button {
@@ -165,9 +165,9 @@ header, footer, div, section {
 
 .fa {
   color: #1B8036;
-  position: relative;
   left: 80%;
   padding-top: 10px;
+  position: relative;
 }
 @media (min-width: 768px) {
   .fa {
@@ -181,10 +181,10 @@ header, footer, div, section {
 }
 
 .hero-image {
-  width: 100%;
-  opacity: 0.9;
-  object-fit: cover;
   height: 300px;
+  object-fit: cover;
+  opacity: 0.9;
+  width: 100%;
 }
 @media (min-width: 768px) {
   .hero-image {
@@ -200,19 +200,19 @@ header, footer, div, section {
 .hero-text {
   color: white;
   font-family: sans-serif;
-  position: absolute;
-  text-align: center;
-  padding-top: 30px;
-  width: 400px;
   font-weight: bold;
   padding-left: 30px;
   padding-right: 30px;
+  padding-top: 30px;
+  position: absolute;
+  text-align: center;
+  width: 400px;
 }
 @media (min-width: 768px) {
   .hero-text {
     padding: 100px 0px 0px 100px;
-    width: 500px;
     text-align: left;
+    width: 500px;
   }
 }
 @media (min-width: 1366px) {
@@ -233,6 +233,8 @@ header, footer, div, section {
 }
 
 .hero-button {
+  background: #1B8036;
+  border-color: #1B8036;
   border-radius: 8px;
   border-style: solid;
   border-width: 3px;
@@ -241,8 +243,6 @@ header, footer, div, section {
   font-weight: bold;
   padding: 10px;
   width: fit-content;
-  background: #1B8036;
-  border-color: #1B8036;
 }
 
 .who-we-are {
@@ -304,34 +304,31 @@ header, footer, div, section {
 
 .devices-pic {
   border-radius: 50%;
+  left: 90px;
   margin: auto;
   padding-top: 30px;
+  top: 160%;
+  top: 742px;
   width: 350px;
-}
-@media (min-width: 1366px) {
-  .devices-pic {
-    left: 90px;
-    top: 742px;
-    width: 570px;
-  }
+  width: 570px;
 }
 
 .splat-pic {
   left: 15%;
   position: absolute;
-  top: 160%;
+  top: 215%;
   width: 200px;
 }
 @media (min-width: 768px) {
   .splat-pic {
     left: 30%;
-    top: 170%;
+    top: 185%;
   }
 }
 @media (min-width: 1366px) {
   .splat-pic {
     left: 10%;
-    top: 200%;
+    top: 215%;
     width: 250px;
   }
 }
@@ -340,15 +337,15 @@ header, footer, div, section {
   display: flex;
   flex-direction: column;
   font-family: Roboto;
-  padding-top: 120px;
-  width: 350px;
   margin: 0 auto;
   padding-bottom: 20px;
+  padding-top: 120px;
+  width: 350px;
 }
 @media (min-width: 768px) {
   .what-we-do {
-    width: 100%;
     margin: auto;
+    width: 100%;
   }
 }
 @media (min-width: 1366px) {
@@ -401,9 +398,9 @@ header, footer, div, section {
   }
 }
 .what-we-do-text h3 {
+  color: #99999A;
   font-size: 15px;
   font-weight: lighter;
-  color: #99999A;
 }
 
 .content {
@@ -425,23 +422,23 @@ header, footer, div, section {
 }
 
 .content-card {
+  border-radius: 10px;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25);
   margin: 1em;
   padding: 10px;
   text-align: center;
   width: 250px;
-  border-radius: 10px;
 }
 
 .product {
-  display: flex;
   background: linear-gradient(100.66deg, rgba(30, 165, 66, 0.92) 23.13%, #0E6706 82.12%, rgba(27, 128, 54, 0.9) 97.79%);
   color: white;
-  text-align: center;
-  font-family: Roboto;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  display: flex;
   flex-direction: column;
+  font-family: Roboto;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  text-align: center;
 }
 
 h1 {
@@ -449,8 +446,8 @@ h1 {
 }
 
 .product-text {
-  width: 350px;
   margin: auto;
+  width: 350px;
 }
 @media (min-width: 1366px) {
   .product-text {
@@ -459,17 +456,17 @@ h1 {
 }
 
 .jman {
-  width: 350px;
-  margin: auto;
   display: flex;
   flex-direction: column;
+  margin: auto;
+  width: 350px;
 }
 @media (min-width: 1366px) {
   .jman {
-    padding-top: 70px;
-    width: 1000px;
     flex-direction: row;
+    padding-top: 70px;
     text-align: left;
+    width: 1000px;
   }
 }
 .jman h1 {
@@ -513,17 +510,17 @@ h1 {
 }
 
 .computer {
-  width: 350px;
-  margin: auto;
   display: flex;
   flex-direction: column;
+  margin: auto;
+  width: 350px;
 }
 @media (min-width: 1366px) {
   .computer {
-    padding-top: 70px;
-    width: 1000px;
     flex-direction: row-reverse;
+    padding-top: 70px;
     text-align: left;
+    width: 1000px;
   }
 }
 .computer h1 {
@@ -568,9 +565,9 @@ h1 {
 
 .jman-pic {
   display: block;
-  width: 150px;
   height: auto;
   margin: auto;
+  width: 150px;
 }
 @media (min-width: 1366px) {
   .jman-pic {
@@ -581,9 +578,9 @@ h1 {
 .computer-pic {
   border-radius: 100%;
   display: block;
-  width: 250px;
   height: auto;
   margin: auto;
+  width: 250px;
 }
 @media (min-width: 1366px) {
   .computer-pic {
@@ -709,47 +706,47 @@ h1 {
 }
 
 .newsletter {
-  text-align: center;
-  font-size: 18px;
   font-family: Roboto;
+  font-size: 18px;
   padding-bottom: 30px;
+  text-align: center;
 }
 
 .newsletter-inner {
   background: linear-gradient(90.54deg, #52FA43 7.9%, rgba(27, 128, 54, 0.89) 92.98%);
   border-radius: 10px;
+  color: white;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
   padding: 20px 40px;
   width: 380px;
-  color: white;
 }
 @media (min-width: 768px) {
   .newsletter-inner {
-    width: 680px;
     flex-direction: row;
+    width: 680px;
   }
 }
 @media (min-width: 1366px) {
   .newsletter-inner {
-    width: 1000px;
     padding-left: 80px;
+    width: 1000px;
   }
 }
 
 .subcribe {
   background-color: white;
-  color: black;
   border-radius: 10px;
+  color: black;
   display: flex;
   flex-direction: row;
   padding-left: 30px;
 }
 @media (min-width: 768px) {
   .subcribe {
-    width: 300px;
     margin-left: 70px;
+    width: 300px;
   }
 }
 @media (min-width: 1366px) {
@@ -759,15 +756,15 @@ h1 {
 }
 
 .subcribe-button {
+  background: #1B8036;
   border-radius: 8px;
   border-width: 3px;
-  background: #1B8036;
   color: white;
-  padding: 5px;
   display: flex;
   float: right;
-  margin-top: 10px;
   margin-left: 80px;
+  margin-top: 10px;
+  padding: 5px;
 }
 @media (min-width: 768px) {
   .subcribe-button {
@@ -777,10 +774,10 @@ h1 {
 
 .footer {
   background: linear-gradient(100.66deg, #1B8036 23.13%, rgba(8, 63, 26, 0.92) 82.12%, rgba(8, 63, 26, 0.86) 97.79%);
-  font-family: sans-serif;
   color: white;
   display: flex;
   flex-direction: column;
+  font-family: sans-serif;
   text-align: center;
 }
 @media (min-width: 768px) {
@@ -791,8 +788,8 @@ h1 {
 }
 @media (min-width: 1366px) {
   .footer {
-    text-align: left;
     padding-left: 100px;
+    text-align: left;
   }
 }
 .footer h1 {
@@ -809,8 +806,8 @@ h1 {
 }
 
 .about-us {
-  width: 350px;
   margin: auto;
+  width: 350px;
 }
 @media (min-width: 768px) {
   .about-us {
@@ -826,14 +823,14 @@ h1 {
 
 .logo {
   width: 150px;
-  height: auto;
   background: white;
+  height: auto;
 }
 
 .social-logo {
-  width: 20px;
   height: auto;
   margin: 0.3em;
+  width: 20px;
 }
 
 .social-footer {
@@ -852,8 +849,8 @@ h1 {
 }
 
 .services {
-  width: 250px;
   margin: auto;
+  width: 250px;
 }
 @media (min-width: 768px) {
   .services {
@@ -867,8 +864,8 @@ h1 {
 }
 
 .contact-us {
-  width: 250px;
   margin: auto;
+  width: 250px;
 }
 @media (min-width: 768px) {
   .contact-us {
@@ -882,8 +879,8 @@ h1 {
 }
 
 .quicklinks {
-  width: 250px;
   margin: auto;
+  width: 250px;
 }
 @media (min-width: 768px) {
   .quicklinks {
@@ -897,19 +894,20 @@ h1 {
 }
 
 .about-us-logo {
-  width: 100%;
-  opacity: 0.9;
-  object-fit: cover;
   height: 100px;
+  object-fit: cover;
+  opacity: 0.9;
+  padding-top: 10px;
   position: relative;
+  width: 100%;
 }
 .about-us-logo p {
+  bottom: -30%;
   color: white;
-  position: absolute;
-  bottom: -10%;
-  left: 30%;
   font-size: 42px;
   font-weight: bold;
+  left: 30%;
+  position: absolute;
 }
 @media (min-width: 768px) {
   .about-us-logo p {
@@ -923,18 +921,18 @@ h1 {
 }
 
 .about-us-page {
-  width: 100%;
   display: flex;
   flex-direction: column;
-  text-align: center;
   font-family: Roboto;
+  text-align: center;
+  width: 100%;
 }
 
 .about-us-text {
-  width: 300px;
-  margin: auto;
   display: flex;
   flex-direction: column;
+  margin: auto;
+  width: 300px;
 }
 .about-us-text h2 {
   color: gray;
@@ -965,14 +963,14 @@ h1 {
 }
 @media (min-width: 1366px) {
   .about-us-text {
-    width: 800px;
     text-align: left;
+    width: 800px;
   }
 }
 .about-us-text h4 {
-  text-decoration-line: underline;
-  font-size: 14px;
   color: #464749;
+  font-size: 14px;
+  text-decoration-line: underline;
 }
 @media (min-width: 768px) {
   .about-us-text h4 {
@@ -986,24 +984,24 @@ h1 {
 }
 
 .about-us-card {
-  color: white;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  border-radius: 5%;
-  width: 200px;
-  margin: auto;
   background: linear-gradient(180deg, #2C8945 0%, rgba(109, 214, 137, 0.69) 0.01%, #1B8036 99.48%);
+  border-radius: 5%;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: white;
+  margin: auto;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  width: 200px;
 }
 .about-us-card p {
-  width: 150px;
-  margin: auto;
   font-size: 12px;
+  margin: auto;
+  width: 150px;
 }
 
 .about-us-pic {
-  width: 100px;
   border-radius: 50%;
+  width: 100px;
 }
 
 .about-us-content {
@@ -1023,27 +1021,32 @@ h1 {
 }
 
 .dot {
-  position: absolute;
-  width: 10px;
+  background: #C4C4C4;
   height: 10px;
   left: 446px;
+  position: absolute;
   top: 508px;
-  background: #C4C4C4;
+  width: 10px;
+}
+
+.blog-page {
+  font-family: Roboto;
 }
 
 .blog-logo {
-  width: 100%;
-  opacity: 0.9;
-  object-fit: cover;
   height: 100px;
+  object-fit: cover;
+  opacity: 0.9;
+  padding-top: 10px;
   position: relative;
+  width: 100%;
 }
 .blog-logo p {
+  bottom: -30%;
   color: white;
-  position: absolute;
-  bottom: -10%;
-  left: 40%;
   font-size: 42px;
+  left: 40%;
+  position: absolute;
 }
 @media (min-width: 768px) {
   .blog-logo p {
@@ -1056,20 +1059,33 @@ h1 {
   }
 }
 
-.blog-page {
-  font-family: Roboto;
+.blog-content {
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 768px) {
+  .blog-content {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 1366px) {
+  .blog-post {
+    padding-left: 100px;
+  }
 }
 
 .car-blog {
-  width: 350px;
-  margin: auto;
+  border-radius: 25px;
+  box-shadow: 1px 5px 2px grey;
   display: flex;
   flex-direction: column;
-  box-shadow: 1px 5px 2px grey;
-  border-radius: 25px;
-  margin-top: 50px;
   margin-bottom: 50px;
+  margin-top: 50px;
+  margin: auto;
+  position: relative;
   text-align: center;
+  width: 350px;
 }
 @media (min-width: 768px) {
   .car-blog {
@@ -1082,9 +1098,9 @@ h1 {
   }
 }
 .car-blog ul {
-  font-size: 12px;
   display: flex;
   flex-direction: row;
+  font-size: 12px;
   padding-left: 60px;
 }
 @media (min-width: 768px) {
@@ -1102,9 +1118,9 @@ h1 {
 }
 .car-blog h1 {
   font-size: 22px;
-  width: 300px;
   margin: auto;
   padding-bottom: 10px;
+  width: 300px;
 }
 @media (min-width: 768px) {
   .car-blog h1 {
@@ -1114,16 +1130,16 @@ h1 {
 @media (min-width: 1366px) {
   .car-blog h1 {
     font-size: 30px;
-    width: 700px;
     text-align: left;
+    width: 700px;
   }
 }
 .car-blog h2 {
+  color: #3D3D3D;
   font-size: 14px;
-  width: 300px;
   margin: auto;
   padding-bottom: 30px;
-  color: #3D3D3D;
+  width: 300px;
 }
 @media (min-width: 768px) {
   .car-blog h2 {
@@ -1137,17 +1153,24 @@ h1 {
     width: 700px;
   }
 }
+.car-blog p {
+  background: #1B8036;
+  border-radius: 15px;
+  color: white;
+  width: 115px;
+}
 
 .clock-blog {
-  width: 350px;
-  margin: auto;
+  border-radius: 25px;
+  box-shadow: 1px 5px 2px grey;
+  color: #3D3D3D;
   display: flex;
   flex-direction: column;
-  box-shadow: 1px 5px 2px grey;
-  border-radius: 25px;
   margin-bottom: 50px;
+  margin: auto;
+  position: relative;
   text-align: center;
-  color: #3D3D3D;
+  width: 350px;
 }
 @media (min-width: 768px) {
   .clock-blog {
@@ -1160,9 +1183,9 @@ h1 {
   }
 }
 .clock-blog ul {
-  font-size: 12px;
   display: flex;
   flex-direction: row;
+  font-size: 12px;
   padding-left: 60px;
 }
 @media (min-width: 768px) {
@@ -1180,9 +1203,9 @@ h1 {
 }
 .clock-blog h1 {
   font-size: 22px;
-  width: 300px;
   margin: auto;
   padding-bottom: 10px;
+  width: 300px;
 }
 @media (min-width: 768px) {
   .clock-blog h1 {
@@ -1191,16 +1214,16 @@ h1 {
 }
 @media (min-width: 1366px) {
   .clock-blog h1 {
-    width: 700px;
-    text-align: left;
     font-size: 30px;
+    text-align: left;
+    width: 700px;
   }
 }
 .clock-blog h2 {
   font-size: 14px;
-  width: 300px;
   margin: auto;
   padding-bottom: 30px;
+  width: 300px;
 }
 @media (min-width: 768px) {
   .clock-blog h2 {
@@ -1209,10 +1232,161 @@ h1 {
 }
 @media (min-width: 1366px) {
   .clock-blog h2 {
-    width: 700px;
-    text-align: left;
     font-size: 16px;
+    text-align: left;
+    width: 700px;
   }
+}
+.clock-blog p {
+  background: #1B8036;
+  border-radius: 15px;
+  color: white;
+  width: 115px;
+}
+
+.blog-tag {
+  display: flex;
+  left: 10%;
+  position: absolute;
+}
+
+.side-items {
+  display: flex;
+  flex-direction: column;
+  font-family: SF UI Display;
+  margin: auto;
+  text-align: center;
+  width: 300px;
+}
+@media (min-width: 1366px) {
+  .side-items {
+    margin-top: 50px;
+    text-align: left;
+  }
+}
+
+.search {
+  background: #FFFFFF;
+  border-radius: 30px;
+  color: #696969;
+  font-size: 18px;
+  height: 45px;
+  margin: auto;
+  padding-left: 50px;
+  text-align: left;
+  width: 250px;
+}
+
+.recent-posts h1 {
+  font-size: 20px;
+}
+@media (min-width: 768px) {
+  .recent-posts h1 {
+    font-size: 24px;
+  }
+}
+.recent-posts p {
+  font-size: 12px;
+}
+@media (min-width: 768px) {
+  .recent-posts p {
+    font-size: 14px;
+  }
+}
+
+.recent-comments h1 {
+  font-size: 20px;
+}
+@media (min-width: 768px) {
+  .recent-comments h1 {
+    font-size: 24px;
+  }
+}
+.recent-comments p {
+  font-size: 12px;
+}
+@media (min-width: 768px) {
+  .recent-comments p {
+    font-size: 14px;
+  }
+}
+
+.categories h1 {
+  font-size: 20px;
+}
+@media (min-width: 768px) {
+  .categories h1 {
+    font-size: 24px;
+  }
+}
+.categories ul {
+  padding-left: 0px;
+}
+.categories li {
+  font-size: 12px;
+}
+@media (min-width: 768px) {
+  .categories li {
+    font-size: 14px;
+  }
+}
+
+.posts {
+  width: 300px;
+  margin: auto;
+}
+.posts h1 {
+  font-size: 20px;
+}
+@media (min-width: 768px) {
+  .posts h1 {
+    font-size: 24px;
+  }
+}
+.posts p {
+  font-size: 12px;
+}
+@media (min-width: 768px) {
+  .posts p {
+    font-size: 14px;
+  }
+}
+
+.instagram h1 {
+  font-size: 20px;
+}
+@media (min-width: 768px) {
+  .instagram h1 {
+    font-size: 24px;
+  }
+}
+
+.tags {
+  padding-bottom: 10px;
+}
+.tags h1 {
+  font-size: 20px;
+}
+@media (min-width: 768px) {
+  .tags h1 {
+    font-size: 24px;
+  }
+}
+.tags ul {
+  display: flex;
+  margin: 0.5em;
+}
+@media (min-width: 1366px) {
+  .tags ul {
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+}
+.tags li {
+  background: #E9F2FF;
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 5px;
 }
 
 /*# sourceMappingURL=style.css.map */

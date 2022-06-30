@@ -1,21 +1,14 @@
-// .header{
-//   // background-color: #1B8036;
-//   // display: flex;
-//   // height: 50px;
-//   // font-family: Roboto;
-// }
-
 .navbar-contact{
   background-color: #1B8036;
   display: flex;
-  height: 100px;
-  justify-content: space-between;
+  flex-direction: column;
   font-family: 'Roboto';
+  font-size: 15px;
   font-style: normal;
   font-weight: 400;
-  font-size: 15px;
+  height: 100px;
+  justify-content: space-between;
   line-height: 18px;
-  flex-direction: column;
 
   @media(min-width:$tablet){
     flex-direction: row;
@@ -25,39 +18,33 @@
 
 .social-media{
   display: flex;
-  padding-top: 30px;
   margin: auto;
   padding-left: 0px;
+  padding-top: 30px;
 
   @media(min-width:$tablet) {
     margin-top: 15px;
     padding-left: 50px;
     padding-top: 0px;
-
   }
   
   @media(min-width:$laptop){
-    position: absolute;
-    width: 147px;
     height: 27px;
     left: 116px;
     opacity: 0.6;
     padding-left: 0px;
+    position: absolute;
+    width: 147px;
   }
 }
 
 .socal-logo{
-  // height: auto;
-  margin: 0.3em;
-  // width: 15px;
-  // background: #FFFFFF;
-
-  height: 12px;
-  width: 13px;
-  left: 6px;
-  top: 8px;
   border-radius: 0px;
-
+  height: 12px;
+  left: 6px;
+  margin: 0.3em;
+  top: 8px;
+  width: 13px;
 
   @media(min-width:$tablet) {
     margin-right: 0.5em;
@@ -68,11 +55,11 @@
   color: white;
   display: flex;
   font-size: 10px;
+  margin: auto;
+  padding-bottom: 15px;
   padding-left: 0px;
   padding-right: 10px;
   padding-top: 5px;
-  padding-bottom: 15px;
-  margin: auto;
 
   @media(min-width:$tablet) {
     font-size: 18px;
@@ -80,24 +67,22 @@
   }
 
   @media(min-width:$laptop){
-    padding-right: 16px;
     margin-left: 825px;
+    padding-right: 16px;
   }
 
   li{
-  margin: 0.5em;
   font-size: 14px;
+  margin: 0.5em;
   }
 }
 
 .menu{
   display: flex;
   flex-direction: column;
-  text-align: center;
   font-family: Roboto;
   justify-content: space-between;
-  // display: none;
-  // overflow: hidden;
+  text-align: center;
 
   @media(min-width:$tablet){
     flex-direction: row;
@@ -109,14 +94,14 @@
 }
 
 .menu-logo{
-  width: 100px;
   margin: auto;
+  width: 100px;
 }
 
 .menu-list{
-  padding-left: 0px;
   display: flex;
   flex-direction: column;
+  padding-left: 0px;
 
   @media(min-width:$tablet){
     flex-direction: row;
@@ -134,12 +119,12 @@
 
 .menu-button{
   background: #1B8036;
-  box-shadow: 3px 10px 20px rgba(27, 128, 54, 0.51);
   border-radius: 24.5px;
+  box-shadow: 3px 10px 20px rgba(27, 128, 54, 0.51);
   color: white;
-  width: 100px;
   height: 30px;  
   margin: auto;
+  width: 100px;
 
   @media(min-width:$laptop){
     width: 141px;
@@ -148,22 +133,11 @@
   }
 }
 
-// .hamburger{
-//   // background-color: transparent;
-//   border: 0;
-//   // color: #1B8036;
-//   color: #1B8036;
-
-//   font-size: 40px;
-// }
-
-// .fa fa-bars{}
-
 .fa{
   color: #1B8036;
-  position: relative;
   left: 80%;
   padding-top: 10px;
+  position: relative;
 
   @media(min-width:$tablet){
     visibility: hidden;

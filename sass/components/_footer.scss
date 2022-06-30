@@ -1,9 +1,9 @@
 .footer{
   background: linear-gradient(100.66deg, #1B8036 23.13%, rgba(8, 63, 26, 0.92) 82.12%, rgba(8, 63, 26, 0.86) 97.79%);
-  font-family: sans-serif;
   color: white;
   display: flex;
   flex-direction: column;
+  font-family: sans-serif;
   text-align: center;
 
   @media(min-width:$tablet){
@@ -12,8 +12,8 @@
   }
 
   @media(min-width:$laptop){
-    text-align: left;
     padding-left: 100px;
+    text-align: left;
   }
 
   h1{
@@ -32,8 +32,8 @@
 }
 
 .about-us{
-  width: 350px;
   margin: auto;
+  width: 350px;
 
   @media(min-width:$tablet){
     margin: 0px;
@@ -47,14 +47,14 @@
 
 .logo{
   width: 150px;
-  height: auto;
   background: white;
+  height: auto;
 }
 
 .social-logo{
-  width: 20px;
   height: auto;
   margin: .3em;
+  width: 20px;
 }
 
 .social-footer{
@@ -71,8 +71,8 @@
 }
 
 .services{
-  width: 250px;
   margin: auto;
+  width: 250px;
 
   @media(min-width:$tablet){
     margin-top: 0px;
@@ -85,8 +85,8 @@
 }
 
 .contact-us{
-  width: 250px;
   margin: auto;
+  width: 250px;
 
   @media(min-width:$tablet){
     margin-top: 0px;
@@ -99,8 +99,8 @@
 }
 
 .quicklinks{
-  width: 250px;
   margin: auto;
+  width: 250px;
 
   @media(min-width:$tablet){
     margin-top: 0px;

@@ -55,31 +55,30 @@
 
 .devices-pic{
   border-radius: 50%;
+  left: 90px;
   margin: auto;
   padding-top: 30px;
+  top: 160%;
+  top: 742px;
   width: 350px;
+  width: 570px;
 
-  @media(min-width:$laptop){
-    left: 90px;
-    top: 742px;
-    width: 570px;
-  }
 }
 
 .splat-pic{
   left: 15%;
   position: absolute;
-  top: 160%;
+  top: 215%;
   width: 200px;
 
   @media(min-width:$tablet){
     left: 30%;
-    top: 170%;
+    top: 185%
   }
 
   @media(min-width:$laptop){
     left: 10%;
-    top: 200%;
+    top: 215%;
     width: 250px;
   }
 }
