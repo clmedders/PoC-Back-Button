@@ -32,12 +32,15 @@
   display: flex;
   flex-direction: column;
 
-  @media(min-width:$tablet){
+  @media(min-width:$laptop){
     flex-direction: row;
   }
 }
 
 .blog-post{
+
+  padding-top: 50px;
+  padding-bottom: 50px;
 
   @media(min-width:$laptop){
     padding-left: 100px;
@@ -138,6 +141,7 @@
   position: relative;
   text-align: center;
   width: 350px;
+  margin-top: 40px;
 
   @media(min-width:$tablet){
     width: 600px;

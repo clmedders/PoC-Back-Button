@@ -310,7 +310,11 @@ header, footer, div, section {
   top: 160%;
   top: 742px;
   width: 350px;
-  width: 570px;
+}
+@media (min-width: 1366px) {
+  .devices-pic {
+    width: 570px;
+  }
 }
 
 .splat-pic {
@@ -1063,12 +1067,16 @@ h1 {
   display: flex;
   flex-direction: column;
 }
-@media (min-width: 768px) {
+@media (min-width: 1366px) {
   .blog-content {
     flex-direction: row;
   }
 }
 
+.blog-post {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
 @media (min-width: 1366px) {
   .blog-post {
     padding-left: 100px;
@@ -1171,6 +1179,7 @@ h1 {
   position: relative;
   text-align: center;
   width: 350px;
+  margin-top: 40px;
 }
 @media (min-width: 768px) {
   .clock-blog {

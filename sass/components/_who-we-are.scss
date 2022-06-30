@@ -61,8 +61,11 @@
   top: 160%;
   top: 742px;
   width: 350px;
+
+  @media(min-width:$laptop){
   width: 570px;
 
+  }
 }
 
 .splat-pic{
