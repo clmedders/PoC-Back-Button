@@ -1,6 +1,6 @@
 .hero{
   display: flex;
-
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.9) 50%, rgba(0, 0, 0, 0.747) 100%, rgba(0, 0, 0, 0) 100%);
 }
 
 .hero-image{
@@ -8,6 +8,7 @@
   opacity: 0.9;
   object-fit: cover;
   height: 300px;
+  position: relative;
   
   
   @media(min-width:$tablet) {
@@ -24,13 +25,13 @@
   color: white;
   font-family: sans-serif;
   position: absolute;
-  text-align: center;
   padding-top: 30px;
   width: 400px;
+  width: fit-content;
   font-weight: bold;
   padding-left: 30px;
   padding-right: 30px;
-  float: left;
+  text-align: center;
 
   @media(min-width:$tablet) {
     padding: 100px 0px 0px 50px;
@@ -40,7 +41,7 @@
 
   @media(min-width:$laptop) {
     padding-left: 125px;
-    width: 900px
+    width: 900px;
   }
 
   h1 {
@@ -72,8 +73,11 @@
     font-size: 18px;
 }
 
-.hero-inner{
-  // display: flex;
-  // background: linear-gradient(90deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.747) 37.5%, rgba(0, 0, 0, 0) 100%);
-  // width: 1800px;
-}
+// .hero-inner{
+// position: absolute;
+// }
+
+// .bottom-pic {
+//   display: flex;
+
+// }
