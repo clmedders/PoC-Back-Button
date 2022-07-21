@@ -9,7 +9,7 @@
   padding-top: 15px;
   padding-bottom: 15px;
   flex-direction: column;
-
+  background: linear-gradient(100.66deg, rgba(30, 165, 66, 0.92) 23.13%, #0E6706 82.12%, rgba(27, 128, 54, 0.9) 97.79%);
 }
 
 h1{
@@ -90,39 +90,31 @@ h1{
 }
 
 .beer-pic{
-  // border-radius: 10px;
-  border-radius: 100%;
+  border-radius: 50%;
   display: block;
-  width: 250px;
-  height: auto;
+  width: 200px;
+  height: 200px;
   margin: auto;
+  object-fit: cover;
 
-  // @media(min-width:$laptop){
-  //   padding-left: 100px;
-  // }
-
+  @media(min-width:$laptop){
+    width: 300px;
+    height: 300px;
+  }
 }
 
 .coffee-pic{
-  border-radius: 100%;
+  border-radius: 50%;
   display: block;
   width: 250px;
   height: auto;
   margin: auto;
-
-  // @media(min-width:$laptop){
-  //   padding-right: 100px;
-  // }
+  
+  @media(min-width:$laptop){
+    width: 300px;
+    height: 300px;
+  }
 
 }
 
-// .flex-container{
-//   display: flex;
-//   flex-direction: column;
-
-//   @media(min-width:$laptop){
-//   // flex-direction: row;
-//   width: 800px;
-//   }
-// }
 

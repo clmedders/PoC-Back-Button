@@ -21,7 +21,6 @@
 .what-we-do-text{
     margin: auto;
     text-align: center;
-    // width: 350px;
    
      @media(min-width:$tablet){
        width: 500px;
@@ -70,11 +69,13 @@
 .content {
   font-family: fansong;
   margin: auto;
+  display: flex;
+  flex-direction: column;
 
   @media(min-width:$tablet){
-    display: flex;
     flex-direction: row;
     width: 725px;
+    justify-content:space-around;
   }
 
   @media(min-width:$laptop){
@@ -85,9 +86,17 @@
 }
 
 .content-card{
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25);
   margin: 1em;
   padding: 10px;
   text-align: center;
-  width: 250px;
+  width: 270px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.content-card-1{
+  @media(min-width:$laptop){
+    padding-top: 50px;
+  }
 }

@@ -35,12 +35,13 @@
   @media(min-width:$tablet) {
     padding: 100px 0px 0px 50px;
     text-align: left;
-    width: 500px;
+    // width: 500px;
   }
 
   @media(min-width:$laptop) {
     padding-left: 125px;
-    width: 900px;
+    // width: 900px;
+    width: 100%;
   }
 
   h1 {
@@ -52,6 +53,7 @@
   p {
     font-size: 18px;
   }
+
 }
 
 .hero-button{
@@ -69,12 +71,3 @@
     padding: 10px;
     width: 150px;
 }
-
-// .hero-inner{
-// position: absolute;
-// }
-
-// .bottom-pic {
-//   display: flex;
-
-// }

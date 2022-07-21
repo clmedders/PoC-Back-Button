@@ -68,7 +68,7 @@
   }
 
   @media(min-width:$laptop){
-    padding-right: 30px
+    padding-right: 55px
   }
 
   li{
@@ -84,6 +84,7 @@
   justify-content: space-between;
   padding-bottom: 20px;
   text-align: center;
+  width: 100%;
 
   @media(min-width:$tablet){
     flex-direction: row;
@@ -98,6 +99,14 @@
   &.open-menu{
     display: flex;
   }
+
+  &__inner{
+    width: 100%;
+
+    @media(min-width:$tablet){
+      display: flex;
+    }
+  }
 }
 
 .menu-logo{
@@ -105,7 +114,7 @@
   width: 70px;
 
   @media(min-width:$laptop){
-    padding-left: 100px;
+    padding-left: 20px;
   }
 }
 
@@ -146,11 +155,22 @@
 }
 
 .navbar-left{
-  border-left: 3px solid lightgray;
+  // border-left: 3px solid lightgray;
   display: flex;
   flex-direction: row;
+  padding-left: 30px;
 
   ul{
     padding: 0;
   }
+
+  @media(min-width:$laptop){
+    padding-left: 50px;
+  }
+}
+
+.hamburger-menu{
+  padding-left: 125px;
+  padding-top: 25px;
+
 }

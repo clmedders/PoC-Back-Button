@@ -56,14 +56,18 @@
 .cb-pic{
   border-radius: 50%;
   margin: auto;
-  width: 350px;
+  width: 275px;
+  height: 275px;
 
   @media(min-width:$tablet){
     padding-top: 30px;
+    width: 350px;
+    height: 350px;
   }
 
   @media(min-width:$laptop){
-    width: 500px;
+    width: 390px;
+    height: 390px;
   }
 
 }
