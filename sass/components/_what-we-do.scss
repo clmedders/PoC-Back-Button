@@ -34,7 +34,7 @@
        color: grey;
        font-size: 12px;
    
-       @media(min-width:$laptop){
+       @media(min-width:$tablet){
          font-size: 14px;
        }
      }
@@ -42,7 +42,7 @@
      h1{
        font-size: 22px;
    
-       @media(min-width:$laptop){
+       @media(min-width:$tablet){
          font-size: 32px;
        }
      }
@@ -51,7 +51,7 @@
        font-size: 16px;
        font-weight: lighter;
    
-       @media(min-width:$laptop){
+       @media(min-width:$tablet){
          font-size: 22px;
        }
      }
@@ -60,7 +60,7 @@
       font-size: 14px;
       font-weight: lighter;
   
-      @media(min-width:$laptop){
+      @media(min-width:$tablet){
         font-size: 20px;
       }
     }

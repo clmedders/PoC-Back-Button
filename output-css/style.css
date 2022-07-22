@@ -306,7 +306,7 @@ header, footer, div, section {
   color: grey;
   font-size: 12px;
 }
-@media (min-width: 1366px) {
+@media (min-width: 768px) {
   .who-we-are-text p {
     font-size: 14px;
   }
@@ -314,7 +314,7 @@ header, footer, div, section {
 .who-we-are-text h1 {
   font-size: 22px;
 }
-@media (min-width: 1366px) {
+@media (min-width: 768px) {
   .who-we-are-text h1 {
     font-size: 32px;
   }
@@ -323,7 +323,7 @@ header, footer, div, section {
   font-size: 16px;
   font-weight: lighter;
 }
-@media (min-width: 1366px) {
+@media (min-width: 768px) {
   .who-we-are-text h2 {
     font-size: 22px;
   }
@@ -340,12 +340,6 @@ header, footer, div, section {
     padding-top: 30px;
     width: 350px;
     height: 350px;
-  }
-}
-@media (min-width: 1366px) {
-  .cb-pic {
-    width: 390px;
-    height: 390px;
   }
 }
 
@@ -389,7 +383,7 @@ header, footer, div, section {
   color: grey;
   font-size: 12px;
 }
-@media (min-width: 1366px) {
+@media (min-width: 768px) {
   .what-we-do-text p {
     font-size: 14px;
   }
@@ -397,7 +391,7 @@ header, footer, div, section {
 .what-we-do-text h1 {
   font-size: 22px;
 }
-@media (min-width: 1366px) {
+@media (min-width: 768px) {
   .what-we-do-text h1 {
     font-size: 32px;
   }
@@ -406,7 +400,7 @@ header, footer, div, section {
   font-size: 16px;
   font-weight: lighter;
 }
-@media (min-width: 1366px) {
+@media (min-width: 768px) {
   .what-we-do-text h2 {
     font-size: 22px;
   }
@@ -415,7 +409,7 @@ header, footer, div, section {
   font-size: 14px;
   font-weight: lighter;
 }
-@media (min-width: 1366px) {
+@media (min-width: 768px) {
   .what-we-do-text h3 {
     font-size: 20px;
   }
@@ -480,25 +474,16 @@ h1 {
   margin: auto;
 }
 
-.beer {
-  width: 375px;
-  margin: auto;
-}
-.beer h1 {
-  font-size: 22px;
-}
-.beer h2 {
-  font-size: 16px;
-}
-.beer p {
-  font-size: 14px;
-}
-
 .coffee {
   width: 350px;
   margin: auto;
   display: flex;
   flex-direction: column;
+}
+@media (min-width: 768px) {
+  .coffee {
+    padding-top: 50px;
+  }
 }
 @media (min-width: 1366px) {
   .coffee {
@@ -509,13 +494,13 @@ h1 {
   }
 }
 .coffee h1 {
-  font-size: 22px;
+  font-size: 28px;
 }
 .coffee h2 {
-  font-size: 16px;
+  font-size: 20px;
 }
 .coffee p {
-  font-size: 14px;
+  font-size: 18px;
 }
 
 .beer {
@@ -533,13 +518,13 @@ h1 {
   }
 }
 .beer h1 {
-  font-size: 22px;
+  font-size: 28px;
 }
 .beer h2 {
-  font-size: 16px;
+  font-size: 20px;
 }
 .beer p {
-  font-size: 14px;
+  font-size: 18px;
 }
 
 .beer-pic {
@@ -601,7 +586,7 @@ h1 {
   color: grey;
   font-size: 12px;
 }
-@media (min-width: 1366px) {
+@media (min-width: 768px) {
   .leadership-text p {
     font-size: 14px;
   }
@@ -609,7 +594,7 @@ h1 {
 .leadership-text h1 {
   font-size: 22px;
 }
-@media (min-width: 1366px) {
+@media (min-width: 768px) {
   .leadership-text h1 {
     font-size: 32px;
   }
@@ -618,7 +603,7 @@ h1 {
   font-size: 16px;
   font-weight: lighter;
 }
-@media (min-width: 1366px) {
+@media (min-width: 768px) {
   .leadership-text h2 {
     font-size: 22px;
   }
@@ -631,6 +616,19 @@ h1 {
 }
 @media (min-width: 1366px) {
   .leadership-group {
+    flex-direction: row;
+  }
+}
+@media (min-width: 768px) {
+  .leadership-group-1 {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+  }
+}
+@media (min-width: 768px) {
+  .leadership-group-2 {
+    display: flex;
     flex-direction: row;
   }
 }
@@ -758,8 +756,6 @@ h1 {
   background-color: #1B8036;
   font-family: sans-serif;
   color: white;
-  display: flex;
-  flex-direction: column;
   text-align: center;
 }
 @media (min-width: 768px) {
@@ -781,6 +777,17 @@ h1 {
 .footer p {
   font-size: 14px;
 }
+.footer__inner {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: auto;
+}
+@media (min-width: 768px) {
+  .footer__inner {
+    flex-direction: row;
+  }
+}
 
 .about-us {
   width: 350px;
@@ -788,7 +795,6 @@ h1 {
 }
 @media (min-width: 768px) {
   .about-us {
-    margin: 0px;
     width: 250px;
   }
 }
