@@ -789,6 +789,7 @@ h1 {
 
 .footer {
   background-color: #21923f;
+  background: linear-gradient(100.66deg, #1B8036 23.13%, rgba(8, 63, 26, 0.92) 82.12%, rgba(8, 63, 26, 0.86) 97.79%);
   font-family: sans-serif;
   color: white;
   text-align: center;
