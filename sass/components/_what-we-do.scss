@@ -90,9 +90,37 @@
   margin: 1em;
   padding: 10px;
   text-align: center;
-  width: 270px;
-  height: auto;
+  height: 200px;
+  width: 200px;
   border-radius: 10px;
+
+  @media(min-width:$tablet){
+    height: 270px;
+    width: 270px;
+  }
+
+  h1{
+    font-size: 20px;
+
+
+    @media(min-width:$tablet){
+    font-size: 22px;
+    width: 160px;
+    margin: auto;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    }
+  }
+
+  p{
+    font-size: 16px;
+
+    @media(min-width:$tablet){
+    font-size: 18px;
+    width: 140px;
+    margin: auto;
+    }
+  }
 }
 
 .content-card-1{

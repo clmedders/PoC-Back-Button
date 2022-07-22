@@ -66,6 +66,10 @@
       flex-direction: row;
       padding-bottom: 20px;
     }
+
+    @media(min-width:$laptop){
+      padding-bottom: 0px;
+    }
   }
 
   &-2{

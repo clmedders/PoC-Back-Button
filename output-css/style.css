@@ -19,7 +19,7 @@ header, footer, div, section {
 }
 
 .header {
-  background-color: #1B8036;
+  background-color: #21923f;
   display: flex;
   flex-direction: column;
 }
@@ -165,7 +165,8 @@ header, footer, div, section {
 }
 
 .menu-button {
-  background: #1B8036;
+  background: #21923f;
+  border-color: #21923f;
   border-radius: 24.5px;
   box-shadow: 3px 10px 20px rgba(27, 128, 54, 0.51);
   color: white;
@@ -257,8 +258,8 @@ header, footer, div, section {
 }
 
 .hero-button {
-  background: #1B8036;
-  border-color: #1B8036;
+  background: #21923f;
+  border-color: #21923f;
   border-radius: 28px;
   border-style: solid;
   border-width: 3px;
@@ -440,9 +441,37 @@ header, footer, div, section {
   margin: 1em;
   padding: 10px;
   text-align: center;
-  width: 270px;
-  height: auto;
+  height: 200px;
+  width: 200px;
   border-radius: 10px;
+}
+@media (min-width: 768px) {
+  .content-card {
+    height: 270px;
+    width: 270px;
+  }
+}
+.content-card h1 {
+  font-size: 20px;
+}
+@media (min-width: 768px) {
+  .content-card h1 {
+    font-size: 22px;
+    width: 160px;
+    margin: auto;
+    padding-bottom: 20px;
+    padding-top: 10px;
+  }
+}
+.content-card p {
+  font-size: 16px;
+}
+@media (min-width: 768px) {
+  .content-card p {
+    font-size: 18px;
+    width: 140px;
+    margin: auto;
+  }
 }
 
 @media (min-width: 1366px) {
@@ -453,7 +482,7 @@ header, footer, div, section {
 
 .product {
   display: flex;
-  background-color: #1B8036;
+  background-color: #21923f;
   color: white;
   width: 100%;
   margin: auto;
@@ -488,6 +517,7 @@ h1 {
 @media (min-width: 1366px) {
   .coffee {
     padding-top: 70px;
+    padding-bottom: 50px;
     width: 800px;
     flex-direction: row-reverse;
     text-align: left;
@@ -626,6 +656,11 @@ h1 {
     padding-bottom: 20px;
   }
 }
+@media (min-width: 1366px) {
+  .leadership-group-1 {
+    padding-bottom: 0px;
+  }
+}
 @media (min-width: 768px) {
   .leadership-group-2 {
     display: flex;
@@ -692,7 +727,7 @@ h1 {
 }
 
 .newsletter-inner {
-  background-color: #1B8036;
+  background-color: #21923f;
   background: linear-gradient(90.54deg, lightgreen 7.9%, rgba(27, 128, 54, 0.89) 92.98%);
   border-radius: 10px;
   display: flex;
@@ -738,7 +773,7 @@ h1 {
 .subcribe-button {
   border-radius: 8px;
   border-width: 3px;
-  background-color: #1B8036;
+  background-color: #21923f;
   color: white;
   padding: 5px;
   display: flex;
@@ -753,7 +788,7 @@ h1 {
 }
 
 .footer {
-  background-color: #1B8036;
+  background-color: #21923f;
   font-family: sans-serif;
   color: white;
   text-align: center;
@@ -920,7 +955,7 @@ h1 {
 }
 
 .about-us-card {
-  background-color: #1B8036;
+  background-color: #21923f;
   color: white;
   padding-top: 20px;
   padding-bottom: 20px;

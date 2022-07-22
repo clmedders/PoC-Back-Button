@@ -139,7 +139,8 @@
 }
 
 .menu-button{
-  background: #1B8036;
+  background: $green;
+  border-color: $green;
   border-radius: 24.5px;
   box-shadow: 3px 10px 20px rgba(27, 128, 54, 0.51);
   color: white;
