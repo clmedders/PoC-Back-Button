@@ -54,10 +54,10 @@
 }
 
 .cb-pic{
-  border-radius: 50%;
   margin: auto;
   width: 275px;
-  height: 275px;
+  height: auto;
+  object-fit: cover;
 
   @media(min-width:$tablet){
     padding-top: 30px;
@@ -70,4 +70,11 @@
   //   height: 390px;
   // }
 
+}
+
+.circle{
+  border-radius: 50%;
+  overflow: hidden;
+  width: 275px;
+  height: 275px;
 }
