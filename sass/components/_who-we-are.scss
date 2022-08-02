@@ -76,5 +76,12 @@
   border-radius: 50%;
   overflow: hidden;
   width: 275px;
-  height: 275px;
+  height: auto;
+  margin: auto;
+
+  @media(min-width:$tablet){
+    padding-top: 30px;
+    width: 300px;
+    height: auto;
+  }
 }

@@ -348,7 +348,15 @@ header, footer, div, section {
   border-radius: 50%;
   overflow: hidden;
   width: 275px;
-  height: 275px;
+  height: auto;
+  margin: auto;
+}
+@media (min-width: 768px) {
+  .circle {
+    padding-top: 30px;
+    width: 300px;
+    height: auto;
+  }
 }
 
 .what-we-do {
@@ -985,6 +993,7 @@ h1 {
 .about-us-content {
   display: flex;
   flex-direction: column;
+  padding-bottom: 20px;
 }
 @media (min-width: 768px) {
   .about-us-content {
