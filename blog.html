@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Blog</title>
   <link rel="stylesheet" href="./output-css/style.css">
-  <!-- <script src="hamburger.js"></script> -->
+  <script src="script.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <style>
     a {
@@ -20,33 +20,49 @@
 </head>
 <body>
   <header class="header">
-    <div class="navbar-contact">
-      <ul class="social-media">
-        <li> <a href="https://www.facebook.com/christian.medders.7/" target="_blank"> <img class="socal-logo" src='images/facebook.png'> 
-          </a>
-        </li>
-        <li> <a href="https://twitter.com/DutchBros" target="_blank">
-          <img class="socal-logo" src="images/twitter.png">
-          </a>
-        </li>
-        <li> <a href="https://www.linkedin.com/in/christian-medders-6a00b7a5/"  target="_blank">
-          <img class="socal-logo" src="images/linkedin.png">
-          </a>
-        </li>
-        <li> <a href="https://www.instagram.com/sportscenter/" target="_blank">
-          <img class="socal-logo" src="images/instagram.png">
-          </a>
-        </li>
-      </ul>
-      <!-- <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <i class="fa fa-bars"></i> -->
+    <div class="navbar-contact container">
+      <div class="navbar-left">
+        <ul class="social-media">
+          <li> <a href="https://twitter.com/DutchBros" target="_blank">
+            <img class="socal-logo" src="images/twitter.svg">
+            </a>
+          </li>
+          <li> <a href="https://www.facebook.com/christian.medders.7/" target="_blank"> <img class="socal-logo" src='images/facebook.svg'> 
+            </a>
+          </li>
+          <li> <a href="https://www.linkedin.com/in/christian-medders-6a00b7a5/"  target="_blank">
+            <img class="socal-logo" src="images/linkedin.svg">
+            </a>
+          </li>
+          <li> <a href="https://www.instagram.com/sportscenter/" target="_blank">
+            <img class="socal-logo" src="images/instagram.svg">
+            </a>
+          </li>
+        </ul>
+      <div id="hamburger-menu" class="fa fa-bars hamburger-menu">Menu</div> 
+      </div>
       <ul class="contact-info">
-        <li>Aiken, South Carolina</li>
+        <li><img src="images/location.svg"><li>
+        <li style="margin-right: 2.5em">Aiken, South Carolina</li>
+        <li><img src="images/mail.svg"></li>
         <li>hitmeup@email.com</li>
       </ul>
     </div>
+          <div id="site-menu" class="navbar-menu">
+            <div class="navbar-menu__inner container">
+              <img class="menu-logo" src="images/coffee-shades.png">
+              <ul class="menu-list">
+                <li class="menu-item"><a href="index.html">Home</a></li>
+                <li class="menu-item"><a href="about-us.html">About Us</a></li>
+                <li class="menu-item"><a href="blog.html">Blog</a></li>
+                <li class="menu-item">Management Profile</li>
+                <li class="menu-item">Careers</li>
+              </ul>
+              <button class="menu-button">Contact Us</button>
+            </div>
+ 
+          </div> 
   </header>
-
 <main>
   <section class="blog-page">
     <div class="blog-logo">
@@ -77,32 +93,67 @@
         </div>
       </section>
       <section class="side-items">
-
+        <button class="search">Search...</button>
+        <div class="recent-posts">
+          <h1>Recent Posts</h1>
+          <p>Impact of Accessibility of handy Services</p>
+        </div>
+        <div class="recent-comments">
+          <h1>Recent Comments</h1>
+          <p>Masiyer Dakol on Impact of Accessibility of handy Services
+            Famodimu Segun on Impact of Accessibility of handy Services</p>
+        </div>
+        <div class="categories">
+          <h1>Categories</h1>
+          <ul>
+            <li>Uncategorized (1)</li>
+            <li>Uncategorized (1)</li>
+            <li>Uncategorized (1)</li>
+          </ul>
+        </div>
+        <div class="posts">
+          <h1>Recent Posts</h1>
+          <p>Impact of Accessibility of handy Services
+            April 6,2020</p>
+            <p>Impact of Accessibility of handy Services
+              April 6,2020</p>
+        </div>
+        <div class="instagram">
+          <h1>Instagram</h1>
+          <img src="images/image 3.png">
+        </div>
+        <div class="tags">
+          <h1>Tags</h1>
+          <ul>
+            <li>Uncategorized</li>
+            <li style="margin-left: 10px">Uncategorized</li>
+          </ul>
+        </div>
       </section>
     </section>
   </section>
 </main>
-
 <footer>
-    <div class="footer">
+  <div class="footer">
+    <div class="footer__inner container">
       <div class="about-us">
         <h1>About Us</h1>
         <img class="logo" src="images/sb.png">
         <p>Aiken Cofeehouse and Lounge is a local owned and operated. We think that you can enjoy your coffee and beer at the same place and not be judge. We rock and so do you.</p>
         <ul class="social-footer">
-          <li> <a href="https://www.facebook.com/christian.medders.7/" target="_blank"> <img class="socal-logo" src='images/facebook.png'>
+          <li> <a href="https://www.facebook.com/christian.medders.7/" target="_blank"> <img class="socal-logo" src='images/facebook.svg'>
             </a>
           </li>
           <li> <a href="https://twitter.com/DutchBros" target="_blank">
-            <img class="socal-logo" src="images/twitter.png">
+            <img class="socal-logo" src="images/twitter.svg">
             </a>
           </li>
           <li> <a href="https://www.linkedin.com/in/christian-medders-6a00b7a5/"  target="_blank">
-            <img class="socal-logo" src="images/linkedin.png">
+            <img class="socal-logo" src="images/linkedin.svg">
             </a>
           </li>
           <li> <a href="https://www.instagram.com/sportscenter/" target="_blank">
-            <img class="socal-logo" src="images/instagram.png">
+            <img class="socal-logo" src="images/instagram.svg">
             </a>
           </li>
         </ul>
@@ -128,7 +179,7 @@
         <p>Pugs</p>
       </div>
     </div>
-  </footer>
-  
+    </div>
+</footer>
 </body>
 </html>

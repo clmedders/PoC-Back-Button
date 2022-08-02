@@ -1007,19 +1007,24 @@ h1 {
   }
 }
 
+.blog-page {
+  font-family: Roboto;
+}
+
 .blog-logo {
-  width: 100%;
-  opacity: 0.9;
-  object-fit: cover;
   height: 100px;
+  object-fit: cover;
+  opacity: 0.9;
+  padding-top: 10px;
   position: relative;
+  width: 100%;
 }
 .blog-logo p {
+  bottom: -30%;
   color: white;
-  position: absolute;
-  bottom: -10%;
-  left: 40%;
   font-size: 42px;
+  left: 40%;
+  position: absolute;
 }
 @media (min-width: 768px) {
   .blog-logo p {
@@ -1032,83 +1037,339 @@ h1 {
   }
 }
 
-.blog-page {
-  font-family: sans-serif;
+.blog-content {
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 1366px) {
+  .blog-content {
+    flex-direction: row;
+  }
+}
+
+.blog-post {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+@media (min-width: 1366px) {
+  .blog-post {
+    padding-left: 100px;
+  }
 }
 
 .beer-blog {
-  width: 350px;
-  margin: auto;
+  border-radius: 25px;
+  box-shadow: 1px 5px 2px grey;
   display: flex;
   flex-direction: column;
-  box-shadow: 1px 5px 2px grey;
-  border-radius: 25px;
-  margin-top: 50px;
   margin-bottom: 50px;
+  margin-top: 50px;
+  margin: auto;
+  position: relative;
   text-align: center;
+  width: 350px;
+}
+@media (min-width: 768px) {
+  .beer-blog {
+    width: 600px;
+  }
+}
+@media (min-width: 1366px) {
+  .beer-blog {
+    width: 870px;
+  }
 }
 .beer-blog ul {
-  font-size: 12px;
   display: flex;
   flex-direction: row;
+  font-size: 12px;
+  padding-left: 60px;
+}
+@media (min-width: 768px) {
+  .beer-blog ul {
+    padding-left: 190px;
+  }
+}
+@media (min-width: 1366px) {
+  .beer-blog ul {
+    padding-left: 80px;
+  }
 }
 .beer-blog li {
   margin: 0.5em;
 }
 .beer-blog h1 {
   font-size: 22px;
-  width: 300px;
   margin: auto;
   padding-bottom: 10px;
+  width: 300px;
+}
+@media (min-width: 768px) {
+  .beer-blog h1 {
+    width: 500px;
+  }
+}
+@media (min-width: 1366px) {
+  .beer-blog h1 {
+    font-size: 30px;
+    text-align: left;
+    width: 700px;
+  }
 }
 .beer-blog h2 {
+  color: #3D3D3D;
   font-size: 14px;
-  width: 300px;
   margin: auto;
-  padding-bottom: 10px;
+  padding-bottom: 30px;
+  width: 300px;
 }
-
-.beer-blog-pic {
-  width: 350px;
-  height: auto;
-  border-radius: 25px;
+@media (min-width: 768px) {
+  .beer-blog h2 {
+    width: 500px;
+  }
+}
+@media (min-width: 1366px) {
+  .beer-blog h2 {
+    font-size: 16px;
+    text-align: left;
+    width: 700px;
+  }
+}
+.beer-blog p {
+  background: #1B8036;
+  border-radius: 15px;
+  color: white;
+  width: 115px;
 }
 
 .coffee-blog {
-  width: 350px;
-  margin: auto;
+  border-radius: 25px;
+  box-shadow: 1px 5px 2px grey;
+  color: #3D3D3D;
   display: flex;
   flex-direction: column;
-  box-shadow: 1px 5px 2px grey;
-  border-radius: 25px;
   margin-bottom: 50px;
+  margin: auto;
+  position: relative;
   text-align: center;
+  width: 350px;
+  margin-top: 40px;
+}
+@media (min-width: 768px) {
+  .coffee-blog {
+    width: 600px;
+  }
+}
+@media (min-width: 1366px) {
+  .coffee-blog {
+    width: 870px;
+  }
 }
 .coffee-blog ul {
-  font-size: 12px;
   display: flex;
   flex-direction: row;
+  font-size: 12px;
+  padding-left: 60px;
+}
+@media (min-width: 768px) {
+  .coffee-blog ul {
+    padding-left: 190px;
+  }
+}
+@media (min-width: 1366px) {
+  .coffee-blog ul {
+    padding-left: 80px;
+  }
 }
 .coffee-blog li {
   margin: 0.5em;
 }
 .coffee-blog h1 {
   font-size: 22px;
-  width: 300px;
   margin: auto;
   padding-bottom: 10px;
+  width: 300px;
+}
+@media (min-width: 768px) {
+  .coffee-blog h1 {
+    width: 500px;
+  }
+}
+@media (min-width: 1366px) {
+  .coffee-blog h1 {
+    font-size: 30px;
+    text-align: left;
+    width: 700px;
+  }
 }
 .coffee-blog h2 {
   font-size: 14px;
-  width: 300px;
   margin: auto;
-  padding-bottom: 10px;
+  padding-bottom: 30px;
+  width: 300px;
+}
+@media (min-width: 768px) {
+  .coffee-blog h2 {
+    width: 500px;
+  }
+}
+@media (min-width: 1366px) {
+  .coffee-blog h2 {
+    font-size: 16px;
+    text-align: left;
+    width: 700px;
+  }
+}
+.coffee-blog p {
+  background: #1B8036;
+  border-radius: 15px;
+  color: white;
+  width: 115px;
 }
 
-.coffee-blog-pic {
-  width: 350px;
-  height: auto;
-  border-radius: 25px;
+.blog-tag {
+  display: flex;
+  left: 10%;
+  position: absolute;
+}
+
+.side-items {
+  display: flex;
+  flex-direction: column;
+  font-family: SF UI Display;
+  margin: auto;
+  text-align: center;
+  width: 300px;
+}
+@media (min-width: 1366px) {
+  .side-items {
+    margin-top: 50px;
+    text-align: left;
+  }
+}
+
+.search {
+  background: #FFFFFF;
+  border-radius: 30px;
+  color: #696969;
+  font-size: 18px;
+  height: 45px;
+  margin: auto;
+  padding-left: 50px;
+  text-align: left;
+  width: 250px;
+}
+
+.recent-posts h1 {
+  font-size: 20px;
+}
+@media (min-width: 768px) {
+  .recent-posts h1 {
+    font-size: 24px;
+  }
+}
+.recent-posts p {
+  font-size: 12px;
+}
+@media (min-width: 768px) {
+  .recent-posts p {
+    font-size: 14px;
+  }
+}
+
+.recent-comments h1 {
+  font-size: 20px;
+}
+@media (min-width: 768px) {
+  .recent-comments h1 {
+    font-size: 24px;
+  }
+}
+.recent-comments p {
+  font-size: 12px;
+}
+@media (min-width: 768px) {
+  .recent-comments p {
+    font-size: 14px;
+  }
+}
+
+.categories h1 {
+  font-size: 20px;
+}
+@media (min-width: 768px) {
+  .categories h1 {
+    font-size: 24px;
+  }
+}
+.categories ul {
+  padding-left: 0px;
+}
+.categories li {
+  font-size: 12px;
+}
+@media (min-width: 768px) {
+  .categories li {
+    font-size: 14px;
+  }
+}
+
+.posts {
+  width: 300px;
+  margin: auto;
+}
+.posts h1 {
+  font-size: 20px;
+}
+@media (min-width: 768px) {
+  .posts h1 {
+    font-size: 24px;
+  }
+}
+.posts p {
+  font-size: 12px;
+}
+@media (min-width: 768px) {
+  .posts p {
+    font-size: 14px;
+  }
+}
+
+.instagram h1 {
+  font-size: 20px;
+}
+@media (min-width: 768px) {
+  .instagram h1 {
+    font-size: 24px;
+  }
+}
+
+.tags {
+  padding-bottom: 10px;
+}
+.tags h1 {
+  font-size: 20px;
+}
+@media (min-width: 768px) {
+  .tags h1 {
+    font-size: 24px;
+  }
+}
+.tags ul {
+  display: flex;
+  margin: 0.5em;
+}
+@media (min-width: 1366px) {
+  .tags ul {
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+}
+.tags li {
+  background: #E9F2FF;
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 5px;
 }
 
 /*# sourceMappingURL=style.css.map */
