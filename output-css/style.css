@@ -978,6 +978,7 @@ h1 {
   border-radius: 10%;
   width: 200px;
   margin: auto;
+  background: linear-gradient(180deg, #2C8945 0%, rgba(109, 214, 137, 0.69) 0.01%, #1B8036 99.48%);
 }
 .about-us-card p {
   width: 150px;
@@ -1015,7 +1016,6 @@ h1 {
   height: 100px;
   object-fit: cover;
   opacity: 0.9;
-  padding-top: 10px;
   position: relative;
   width: 100%;
 }
@@ -1050,11 +1050,6 @@ h1 {
 .blog-post {
   padding-top: 50px;
   padding-bottom: 50px;
-}
-@media (min-width: 1366px) {
-  .blog-post {
-    padding-left: 100px;
-  }
 }
 
 .beer-blog {
@@ -1329,11 +1324,6 @@ h1 {
 .posts p {
   font-size: 12px;
 }
-@media (min-width: 768px) {
-  .posts p {
-    font-size: 14px;
-  }
-}
 
 .instagram h1 {
   font-size: 20px;
@@ -1370,6 +1360,87 @@ h1 {
   border-radius: 5px;
   font-size: 14px;
   padding: 5px;
+}
+
+.blog-page-hero {
+  display: flex;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.9) 50%, rgba(0, 0, 0, 0.747) 100%, rgba(0, 0, 0, 0) 100%);
+  flex-direction: column;
+  position: relative;
+}
+
+.blog-page-hero-pic {
+  height: 300px;
+  object-fit: cover;
+  opacity: 0.9;
+  width: 100%;
+  opacity: 0.5;
+}
+@media (min-width: 768px) {
+  .blog-page-hero-pic {
+    height: 400px;
+  }
+}
+@media (min-width: 1366px) {
+  .blog-page-hero-pic {
+    height: 500px;
+  }
+}
+
+.blog-page-text {
+  padding: 20px 40px 0px 40px;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+}
+@media (min-width: 768px) {
+  .blog-page-text {
+    text-align: left;
+    padding: 0px 40px 0px 40px;
+  }
+}
+
+.blog-page-inner {
+  width: 100%;
+}
+.blog-page-inner h1 {
+  position: absolute;
+  color: white;
+  top: 30%;
+  width: 100%;
+  padding: 10px;
+}
+@media (min-width: 768px) {
+  .blog-page-inner h1 {
+    top: 50%;
+    padding-left: 50px;
+  }
+}
+@media (min-width: 1366px) {
+  .blog-page-inner h1 {
+    top: 60%;
+  }
+}
+.blog-page-inner ul {
+  position: absolute;
+  color: white;
+  top: 60%;
+  display: flex;
+  padding-left: 60px;
+}
+@media (min-width: 768px) {
+  .blog-page-inner ul {
+    top: 70%;
+    padding-left: 50px;
+  }
+}
+@media (min-width: 1366px) {
+  .blog-page-inner ul {
+    top: 80%;
+  }
+}
+.blog-page-inner ul li {
+  margin-right: 0.5em;
 }
 
 /*# sourceMappingURL=style.css.map */
