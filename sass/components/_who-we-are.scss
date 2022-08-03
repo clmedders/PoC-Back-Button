@@ -54,26 +54,26 @@
 }
 
 .cb-pic{
-  margin: auto;
-  width: 275px;
   height: auto;
+  margin: auto;
   object-fit: cover;
+  width: 275px;
 
   @media(min-width:$tablet){
-    width: 400px;
     height: auto;
+    width: 400px;
   }
 }
 
 .circle{
   border-radius: 50%;
-  overflow: hidden;
-  width: 275px;
   height: auto;
   margin: auto;
+  overflow: hidden;
+  width: 275px;
 
   @media(min-width:$tablet){
-    width: 400px;
     height: auto;
+    width: 400px;
   }
 }
