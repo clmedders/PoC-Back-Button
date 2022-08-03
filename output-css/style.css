@@ -338,9 +338,8 @@ header, footer, div, section {
 }
 @media (min-width: 768px) {
   .cb-pic {
-    padding-top: 30px;
-    width: 350px;
-    height: 350px;
+    width: 400px;
+    height: auto;
   }
 }
 
@@ -353,8 +352,7 @@ header, footer, div, section {
 }
 @media (min-width: 768px) {
   .circle {
-    padding-top: 30px;
-    width: 300px;
+    width: 400px;
     height: auto;
   }
 }
@@ -685,9 +683,10 @@ h1 {
 
 .leadership-pic {
   border-radius: 25px;
-  height: autoc;
+  height: auto;
   margin: 1em;
   width: 200px;
+  object-fit: cover;
 }
 @media (min-width: 768px) {
   .leadership-pic {
@@ -697,7 +696,6 @@ h1 {
 
 .leadership-card {
   display: flex;
-  object-fit: contain;
   position: relative;
 }
 
@@ -987,7 +985,7 @@ h1 {
 }
 
 .about-us-pic {
-  width: 100px;
+  width: 135px;
   border-radius: 50%;
 }
 

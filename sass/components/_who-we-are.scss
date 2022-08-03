@@ -60,16 +60,9 @@
   object-fit: cover;
 
   @media(min-width:$tablet){
-    padding-top: 30px;
-    width: 350px;
-    height: 350px;
+    width: 400px;
+    height: auto;
   }
-
-  // @media(min-width:$laptop){
-  //   width: 390px;
-  //   height: 390px;
-  // }
-
 }
 
 .circle{
@@ -80,8 +73,7 @@
   margin: auto;
 
   @media(min-width:$tablet){
-    padding-top: 30px;
-    width: 300px;
+    width: 400px;
     height: auto;
   }
 }
