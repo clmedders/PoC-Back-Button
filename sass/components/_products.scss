@@ -1,15 +1,15 @@
 .product{
-  display: flex;
   background-color: $green;
-  color: white;
-  width: 100%;
-  margin: auto;
-  text-align: center;
-  font-family: sans-serif;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  flex-direction: column;
   background: linear-gradient(100.66deg, rgba(30, 165, 66, 0.92) 23.13%, #0E6706 82.12%, rgba(27, 128, 54, 0.9) 97.79%);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  margin: auto;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  text-align: center;
+  width: 100%;
 }
 
 h1{
@@ -17,27 +17,27 @@ h1{
 }
 
 .product-text{
-  width: 350px;
   margin: auto;
+  width: 350px;
 
 }
 
 .coffee{
-  width: 350px;
-  margin: auto;
   display: flex;
   flex-direction: column;
+  margin: auto;
+  width: 350px;
 
   @media(min-width:$tablet){
     padding-top: 50px;
   }
 
   @media(min-width:$laptop){
-    padding-top: 70px;
-    padding-bottom: 50px;
-    width: 800px;
     flex-direction: row-reverse;
+    padding-bottom: 50px;
+    padding-top: 70px;
     text-align: left;
+    width: 800px;
   }
   h1{
     font-size: 28px;
@@ -53,16 +53,16 @@ h1{
 }
 
 .beer{
-  width: 350px;
-  margin: auto;
   display: flex;
   flex-direction: column;
+  margin: auto;
+  width: 350px;
 
   @media(min-width:$laptop){
-    padding-top: 70px;
-    width: 800px;
     flex-direction: row;
+    padding-top: 70px;
     text-align: left;
+    width: 800px;
   }
 
   h1{
@@ -81,27 +81,27 @@ h1{
 .beer-pic{
   border-radius: 50%;
   display: block;
-  width: 200px;
   height: 200px;
   margin: auto;
   object-fit: cover;
+  width: 200px;
 
   @media(min-width:$laptop){
-    width: 300px;
     height: 300px;
+    width: 300px;
   }
 }
 
 .coffee-pic{
   border-radius: 50%;
   display: block;
-  width: 250px;
   height: auto;
   margin: auto;
+  width: 250px;
 
   @media(min-width:$laptop){
-    width: 300px;
     height: 300px;
+    width: 300px;
   }
 
 }

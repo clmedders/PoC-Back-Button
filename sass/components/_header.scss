@@ -30,8 +30,8 @@
 }
 
 .social-media{
-  display: flex;
   box-sizing: border-box;
+  display: flex;
 
   @media(min-width:$tablet) {
     margin-top: 10px;
@@ -44,7 +44,6 @@
 }
 
 .socal-logo{
-  // background: #FFFFFF;
   Fill: Solid #FFFFFF;
   height: 13;
   margin: 0.5em;
@@ -156,7 +155,6 @@
 }
 
 .navbar-left{
-  // border-left: 3px solid lightgray;
   display: flex;
   flex-direction: row;
   padding-left: 30px;

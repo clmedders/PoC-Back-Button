@@ -1,14 +1,14 @@
 @import "container";
 @import "globals";
 
+@import "components/about-us";
+@import "components/blog-page";
+@import "components/blog";
+@import "components/footer";
 @import "components/header";
 @import "components/hero";
-@import "components/who-we-are";
-@import "components/what-we-do";
-@import "components/products";
 @import "components/leadership";
 @import "components/newsletter";
-@import "components/footer";
-@import "components/about-us";
-@import "components/blog";
-@import "components/blog-page";
+@import "components/products";
+@import "components/what-we-do";
+@import "components/who-we-are";

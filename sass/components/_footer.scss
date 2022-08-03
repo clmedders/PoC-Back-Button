@@ -1,12 +1,8 @@
 .footer{
   background-color: $green;
   background: linear-gradient(100.66deg, #1B8036 23.13%, rgba(8, 63, 26, 0.92) 82.12%, rgba(8, 63, 26, 0.86) 97.79%);
-  font-family: sans-serif;
   color: white;
-  // display: flex;
-  // flex-direction: column;
-  // width: 100%;
-  // margin: auto;
+  font-family: sans-serif;
   text-align: center;
 
   @media(min-width:$tablet){
@@ -31,8 +27,8 @@
   &__inner{
     display: flex;
     flex-direction: column;
-    width: 100%;
     margin: auto;
+    width: 100%;
 
     @media(min-width:$tablet){
       flex-direction: row;
@@ -54,8 +50,8 @@
 }
 
 .logo{
-  width: 150px;
   height: auto;
+  width: 150px;
 }
 
 .social-footer{
@@ -72,8 +68,8 @@
 }
 
 .services{
-  width: 250px;
   margin: auto;
+  width: 250px;
 
   @media(min-width:$tablet){
     margin-top: 0px;
@@ -86,8 +82,8 @@
 }
 
 .contact-us{
-  width: 250px;
   margin: auto;
+  width: 250px;
 
   @media(min-width:$tablet){
     margin-top: 0px;
@@ -100,8 +96,8 @@
 }
 
 .quicklinks{
-  width: 250px;
   margin: auto;
+  width: 250px;
 
   @media(min-width:$tablet){
     margin-top: 0px;
