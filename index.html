@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Business Home Page</title>
   <link rel="stylesheet" href="./output-css/style.css">
-  <!-- <script src="hamburger.js"></script> -->
+  <script src="script.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <style>
     a {
@@ -20,40 +20,59 @@
 </head>
 <body>
   <header class="header">
-    <div class="navbar-contact">
-      <ul class="social-media">
-        <li> <a href="https://www.facebook.com/christian.medders.7/" target="_blank"> <img class="socal-logo" src='images/facebook.png'> 
-          </a>
-        </li>
-        <li> <a href="https://twitter.com/DutchBros" target="_blank">
-          <img class="socal-logo" src="images/twitter.png">
-          </a>
-        </li>
-        <li> <a href="https://www.linkedin.com/in/christian-medders-6a00b7a5/"  target="_blank">
-          <img class="socal-logo" src="images/linkedin.png">
-          </a>
-        </li>
-        <li> <a href="https://www.instagram.com/sportscenter/" target="_blank">
-          <img class="socal-logo" src="images/instagram.png">
-          </a>
-        </li>
-      </ul>
-      <!-- <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <i class="fa fa-bars"></i> -->
+    <div class="navbar-contact container">
+      <div class="navbar-left">
+        <ul class="social-media">
+          <li> <a href="https://twitter.com/DutchBros" target="_blank">
+            <img class="socal-logo" src="images/twitter.svg">
+            </a>
+          </li>
+          <li> <a href="https://www.facebook.com/christian.medders.7/" target="_blank"> <img class="socal-logo" src='images/facebook.svg'> 
+            </a>
+          </li>
+          <li> <a href="https://www.linkedin.com/in/christian-medders-6a00b7a5/"  target="_blank">
+            <img class="socal-logo" src="images/linkedin.svg">
+            </a>
+          </li>
+          <li> <a href="https://www.instagram.com/sportscenter/" target="_blank">
+            <img class="socal-logo" src="images/instagram.svg">
+            </a>
+          </li>
+        </ul>
+      <div id="hamburger-menu" class="fa fa-bars hamburger-menu">Menu</div> 
+      </div>
       <ul class="contact-info">
-        <li>Aiken, South Carolina</li>
+        <li><img src="images/location.svg"><li>
+        <li style="margin-right: 2.5em">Aiken, South Carolina</li>
+        <li><img src="images/mail.svg"></li>
         <li>hitmeup@email.com</li>
       </ul>
     </div>
+          <div id="site-menu" class="navbar-menu">
+            <div class="navbar-menu__inner container">
+              <img class="menu-logo" src="images/coffee-shades.png">
+              <ul class="menu-list">
+                <li class="menu-item"><a href="index.html">Home</a></li>
+                <li class="menu-item"><a href="about-us.html">About Us</a></li>
+                <li class="menu-item"><a href="blog.html">Blog</a></li>
+                <li class="menu-item"><a href="https://www.linkedin.com/in/christian-medders-6a00b7a5/" target="_blank">Management Profile</a></li>
+                <li class="menu-item"><a href="https://theawesomedaily.com/25-funny-job-titles-that-are-so-weird-theyre-just-hilarious/" target="_blank">Careers</a></li>
+              </ul>
+              <button class="menu-button">Contact Us</button>
+            </div>
+ 
+          </div> 
   </header>
   <main>
     <section class="hero">
-      <img class="hero-image" src="images/coffee.png"> 
-      <div class="hero-text">
-        <h1>Aiken Coffee House and Lounge</h1>
-        <p>Come unwind and have a drink</p>
-      <button class="hero-button">Learn More</button>
-      </div>
+        <img class="hero-image" src="images/coffee.png"> 
+          <div class="hero-text">
+        <div class="hero-text__inner container">
+              <h1>Aiken Coffee House and Lounge</h1>
+              <p>Come unwind and have a drink</p>
+            <button class="hero-button">Learn More</button>
+            </div>
+          </div>
     </section>
     <section class="who-we-are container">
       <div class="who-we-are-text">
@@ -61,7 +80,9 @@
         <h1>We are your local coffee house and brewery. Where we brew our own beer and roast our own beans</h1>
         <h2>Aiken Coffee House House is paper and plastic free, bring your own cup and get a discount on your beverage</h2>
       </div>
-      <img class="cb-pic" src="images/cb.png">
+      <div class="circle">
+        <img class="cb-pic" src="images/coffee-beer.png">
+      </div>
     </section>
     <section class="what-we-do container">
       <div class="what-we-do-text">
@@ -71,21 +92,25 @@
         <h3>Bare with us we know it sounds crazy but you can bring your own mug/cup or take one of ours home. We trust you'll bring it back!</h3>
       </div>
       <div class="content">
-        <div class="content-card">
-          <p>We Make Coffee</p>
-          <p>Our coffee is legit the best in town... if you dont believe us why don't you come down and try it!</p>
+        <div class="content-card-1">
+          <div class="content-card">
+            <h1>We Make Coffee</h1>
+            <p>Our coffee is legit the best in town... if you dont believe us why don't you come down and try it!</p>
+          </div>
+          <div class="content-card">
+            <h1>We Make Beer</h1>
+            <p>Our Beer is better then the coffee... if you dont believe that then come try both and let us know</p>
+          </div>
         </div>
-        <div class="content-card">
-          <p>We Make Beer</p>
-          <p>Our Beer is better then the coffee... if you dont believe that then come try both and let us know</p>
-        </div>
-        <div class="content-card">
-          <p>We play Music</p>
-          <p>Well we are not the ones playing the music but we know some kick ass musicians who would love to see you</p>
-        </div>
-        <div class="content-card">
-          <p>We Are Open... A Lot</p>
-          <p>Its a coffee house so we open at 6 am, but we are also a bar so we close at 2am. We are the party.</p>
+        <div class="content-card-2">
+          <div class="content-card">
+            <h1>We play Music</h1>
+            <p>Well we are not the ones playing the music but we know some kick ass musicians who would love to see you</p>
+          </div>
+          <div class="content-card">
+            <h1>We Are Open... A Lot</h1>
+            <p>Its a coffee house so we open at 6 am, but we are also a bar so we close at 2am. We are the party.</p>
+          </div>
         </div>
       </div>
     </section>
@@ -115,33 +140,37 @@
         <h2>We are family ran and owned from right here in Aiken. We love beer and we love coffee so we said "Why not both". Oh and we have two brew/roast pups to help us out.</h2>
       </div>
       <div class="leadership-group">
-        <div class="leadership-card">
-          <img class="leadership-pic" src="images/collytte.jpeg">
-            <div class="title">
-              <h1>Collytte</h1>
-              <p>Boss</p>
-            </div>
+        <div class="leadership-group-1">
+          <div class="leadership-card">
+            <img class="leadership-pic" src="images/collytte.jpeg">
+              <div class="title">
+                <h1>Collytte</h1>
+                <p>Boss</p>
+              </div>
+          </div>
+          <div class="leadership-card">
+            <img class="leadership-pic" src="images/christian.jpg">
+              <div class="title">
+                <h1>Christian</h1>
+                <p>Kinda The Boss</p>
+              </div>
+          </div>
         </div>
-        <div class="leadership-card">
-          <img class="leadership-pic" src="images/christian.jpg">
-            <div class="title">
-              <h1>Christian</h1>
-              <p>Kinda The Boss</p>
-            </div>
-        </div>
-        <div class="leadership-card">
-          <img class="leadership-pic" src="images/dakota.jpg">
-            <div class="title">
-              <h1>Dakota</h1>
-              <p>Brew Dog</p>
-            </div>
-        </div>
-        <div class="leadership-card">
-          <img class="leadership-pic" src="images/harley.png">
-            <div class="title">
-              <h1>Harley</h1>
-              <p>Roast Dog</p>
-            </div>
+        <div class="leadership-group-2">
+          <div class="leadership-card">
+            <img class="leadership-pic" src="images/dakota.jpg">
+              <div class="title">
+                <h1>Dakota</h1>
+                <p>Brew Dog</p>
+              </div>
+          </div>
+          <div class="leadership-card">
+            <img class="leadership-pic" src="images/harley.png">
+              <div class="title">
+                <h1>Harley</h1>
+                <p>Roast Dog</p>
+              </div>
+          </div>
         </div>
       </div>
     </section>
@@ -159,49 +188,51 @@
   </main>
   <footer>
     <div class="footer">
-      <div class="about-us">
-        <h1>About Us</h1>
-        <img class="logo" src="images/sb.png">
-        <p>Aiken Cofeehouse and Lounge is a local owned and operated. We think that you can enjoy your coffee and beer at the same place and not be judge. We rock and so do you.</p>
-        <ul class="social-footer">
-          <li> <a href="https://www.facebook.com/christian.medders.7/" target="_blank"> <img class="socal-logo" src='images/facebook.png'>
-            </a>
-          </li>
-          <li> <a href="https://twitter.com/DutchBros" target="_blank">
-            <img class="socal-logo" src="images/twitter.png">
-            </a>
-          </li>
-          <li> <a href="https://www.linkedin.com/in/christian-medders-6a00b7a5/"  target="_blank">
-            <img class="socal-logo" src="images/linkedin.png">
-            </a>
-          </li>
-          <li> <a href="https://www.instagram.com/sportscenter/" target="_blank">
-            <img class="socal-logo" src="images/instagram.png">
-            </a>
-          </li>
-        </ul>
+      <div class="footer__inner container">
+        <div class="about-us">
+          <h1>About Us</h1>
+          <img class="logo" src="images/sb.png">
+          <p>Aiken Cofeehouse and Lounge is a local owned and operated. We think that you can enjoy your coffee and beer at the same place and not be judge. We rock and so do you.</p>
+          <ul class="social-footer">
+            <li> <a href="https://www.facebook.com/christian.medders.7/" target="_blank"> <img class="socal-logo" src='images/facebook.svg'>
+              </a>
+            </li>
+            <li> <a href="https://twitter.com/DutchBros" target="_blank">
+              <img class="socal-logo" src="images/twitter.svg">
+              </a>
+            </li>
+            <li> <a href="https://www.linkedin.com/in/christian-medders-6a00b7a5/"  target="_blank">
+              <img class="socal-logo" src="images/linkedin.svg">
+              </a>
+            </li>
+            <li> <a href="https://www.instagram.com/sportscenter/" target="_blank">
+              <img class="socal-logo" src="images/instagram.svg">
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="contact-us">
+          <h1>Contact Us</h1>
+          <p>Address: 123 Easy Street</p>
+          <p>Phone: 555-555-555</p>
+          <p>Email: higmeup@email.com</p>
+        </div>
+        <div class="services">
+          <h1>Services</h1>
+          <p>Coffee Roasting</p>
+          <p>Beer Brewing</p>
+          <p>Live Music</p>
+          <p>Fun Stuff</p>
+        </div>
+        <div class="quicklinks">
+          <h1>Quicklinks</h1>
+          <p><a href="blog.html">Blog</a></p>
+          <p>Jobs</p>
+          <p>Mugs</p>
+          <p>Pugs</p>
+        </div>
       </div>
-      <div class="contact-us">
-        <h1>Contact Us</h1>
-        <p>Address: 123 Easy Street</p>
-        <p>Phone: 555-555-555</p>
-        <p>Email: higmeup@email.com</p>
       </div>
-      <div class="services">
-        <h1>Services</h1>
-        <p>Coffee Roasting</p>
-        <p>Beer Brewing</p>
-        <p>Live Music</p>
-        <p>Fun Stuff</p>
-      </div>
-      <div class="quicklinks">
-        <h1>Quicklinks</h1>
-        <p>Blog</p>
-        <p>Jobs</p>
-        <p>Mugs</p>
-        <p>Pugs</p>
-      </div>
-    </div>
   </footer>
 </body>
 </html>

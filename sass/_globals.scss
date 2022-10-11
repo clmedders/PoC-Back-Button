@@ -1,12 +1,20 @@
 $laptop:1366px;
 $tablet:768px;
 
+//  320 - smallest
+//  560 - iphone 
+
+// 680 - tablet and largets for content area 
+// 768 - 1100 - normal tablet 
+// 1100 - desktop 
+
+
 ul li
 {
     list-style-type: none;
 }
 
-$green: #006400;
+$green: #21923f;
 
 
 html, body {

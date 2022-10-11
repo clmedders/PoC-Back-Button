@@ -1,15 +1,15 @@
 .product{
-  display: flex;
   background-color: $green;
+  background: linear-gradient(100.66deg, rgba(30, 165, 66, 0.92) 23.13%, #0E6706 82.12%, rgba(27, 128, 54, 0.9) 97.79%);
   color: white;
-  width: 100%;
-  margin: auto;
-  text-align: center;
-  font-family: sans-serif;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  display: flex;
   flex-direction: column;
-
+  font-family: sans-serif;
+  margin: auto;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  text-align: center;
+  width: 100%;
 }
 
 h1{
@@ -17,112 +17,93 @@ h1{
 }
 
 .product-text{
+  margin: auto;
   width: 350px;
-  margin: auto;
-}
 
-.beer{
-  width: 375px;
-  margin: auto;
-
-  h1{
-    font-size: 22px;
-  }
-
-  h2{
-    font-size: 16px;
-  }
-
-  p{
-    font-size: 14px;
-  }
 }
 
 .coffee{
-  width: 350px;
-  margin: auto;
   display: flex;
   flex-direction: column;
+  margin: auto;
+  width: 350px;
+
+  @media(min-width:$tablet){
+    padding-top: 50px;
+  }
 
   @media(min-width:$laptop){
-    padding-top: 70px;
-    width: 800px;
     flex-direction: row-reverse;
+    padding-bottom: 50px;
+    padding-top: 70px;
     text-align: left;
+    width: 800px;
   }
   h1{
-    font-size: 22px;
+    font-size: 28px;
   }
 
   h2{
-    font-size: 16px;
+    font-size: 20px;
   }
 
   p{
-    font-size: 14px;
+    font-size: 18px;
   }
 }
 
 .beer{
-  width: 350px;
-  margin: auto;
   display: flex;
   flex-direction: column;
+  margin: auto;
+  width: 350px;
 
   @media(min-width:$laptop){
-    padding-top: 70px;
-    width: 800px;
     flex-direction: row;
+    padding-top: 70px;
     text-align: left;
+    width: 800px;
   }
 
   h1{
-    font-size: 22px;
+    font-size: 28px;
   }
 
   h2{
-    font-size: 16px;
+    font-size: 20px;
   }
 
   p{
-    font-size: 14px;
+    font-size: 18px;
   }
 }
 
 .beer-pic{
-  // border-radius: 10px;
-  border-radius: 100%;
+  border-radius: 50%;
   display: block;
-  width: 250px;
-  height: auto;
+  height: 200px;
   margin: auto;
+  object-fit: cover;
+  width: 200px;
 
-  // @media(min-width:$laptop){
-  //   padding-left: 100px;
-  // }
-
+  @media(min-width:$laptop){
+    height: 300px;
+    width: 300px;
+  }
 }
 
 .coffee-pic{
-  border-radius: 100%;
+  border-radius: 50%;
   display: block;
-  width: 250px;
   height: auto;
   margin: auto;
+  width: 250px;
 
-  // @media(min-width:$laptop){
-  //   padding-right: 100px;
-  // }
+  @media(min-width:$laptop){
+    height: 300px;
+    width: 300px;
+  }
 
 }
 
-// .flex-container{
-//   display: flex;
-//   flex-direction: column;
-
-//   @media(min-width:$laptop){
-//   // flex-direction: row;
-//   width: 800px;
-//   }
-// }
 

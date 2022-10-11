@@ -1,44 +1,43 @@
 .newsletter{
-  text-align: center;
-  font-size: 18px;
   font-family: sans-serif;
+  font-size: 18px;
   padding-bottom: 30px;
+  text-align: center;
 }
 
 .newsletter-inner{
   background-color: $green;
+  background: linear-gradient(90.54deg, lightgreen 7.9%, rgba(27, 128, 54, 0.89) 92.98%);
   border-radius: 10px;
+  color: white;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
   padding: 20px 40px;
   width: 380px;
-  color: white;
 
   @media(min-width:$tablet){
-    width: 680px;
     flex-direction: row;
+    width: 680px;
   }
 
   @media(min-width:$laptop){
-    width: 1000px;
     padding-left: 80px;
+    width: 1000px;
   }
-
-
 }
 
 .subcribe{
   background-color: white;
-  color: black;
   border-radius: 10px;
+  color: black;
   display: flex;
   flex-direction: row;
   padding-left: 30px;
 
   @media(min-width:$tablet){
-    width: 300px;
     margin-left: 70px;
+    width: 300px;
   }
 
   @media(min-width:$laptop){
@@ -48,15 +47,15 @@
 }
 
 .subcribe-button{
+  background-color: $green;
   border-radius: 8px;
   border-width: 3px;
-  background-color: $green;
   color: white;
-  padding: 5px;
   display: flex;
   float: right;
-  margin-top: 10px;
   margin-left: 80px;
+  margin-top: 10px;
+  padding: 5px;
 
   @media(min-width:$tablet){
     float: left;
